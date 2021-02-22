@@ -26,14 +26,14 @@ for (var i = 0; i < card.length; i++) {
 		Blur(0);
 	}
 	card[i].onmouseover = function () {
-		Blur(2.8);
+		Blur(2.6);
 	}
 }
 search.onmouseout = function () {
 	Blur(0);
 }
 search.onmouseover = function () {
-	Blur(2.8);
+	Blur(2.6);
 }
 // 匀速过渡 - 模糊
 function Blur(target) {
@@ -50,7 +50,6 @@ function Blur(target) {
 	}, 8)
 }
 // 鼠标滑过网址卡片、输入框触发背景模糊 -----------------------------结束
-
 
 // 卖萌标题
 var OriginTitle = document.title;
