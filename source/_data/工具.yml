@@ -1,0 +1,44 @@
+- name: 爱设计（强推）
+  url: https://www.isheji.com/
+  img: https://www.isheji.com/isheji_favicon.ico
+  description: 在线封面设计神器
+- name: Bgimage
+  url: https://nav.rdonly.com/laboratory/bgimage/backimage.html
+  img: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/alphabet/B.png
+  description: 一款简约风的封面制作网站
+- name: 可画 Canva
+  url: https://www.canva.cn/
+  img: https://static.canva.cn/static/images/favicon.ico
+  description: 封面制作网站
+- name: Convertio 文件转换器
+  url: https://convertio.co/
+  img: https://static.convertio.co/favicon.ico
+  description: 将您的文件转换成任意格式
+- name: Aconvert
+  url: https://www.aconvert.com/
+  img: https://www.aconvert.com/favicon.ico
+  description: 格式转换网站
+- name: ProcessOn
+  url: https://www.processon.com/
+  img: https://www.processon.com/favicon.ico
+  description: 免费在线作图，思维导图，流程图，实时协作
+- name: 未命名绘图 Online Diagram Software
+  url: https://app.diagrams.net
+  img: https://app.diagrams.net/favicon.ico
+  description: 在线绘图网站
+- name: 完美韵脚
+  url: http://www.wanmeiyunjiao.com/
+  img: http://www.wanmeiyunjiao.com/static/tab_logo.ico
+  description: 一个帮助词作人、诗人和文案创作者创作的押韵搜索网站
+- name: 押韵助手
+  url: https://yayun.la/
+  img: https://yayun.la/favicon.ico
+  description: 文案/金句/诗词/Rap歌词创作者的必备神器
+- name: 问卷星
+  url: https://www.wjx.cn/
+  img: https://image.wjx.cn/images/wlogo.png
+  description: 免费使用问卷星创建问卷调查、在线考试、360度评估等应用
+- name: Diffchecker（强推）
+  url: https://www.diffchecker.com
+  img: https://www.diffchecker.com/favicon.ico
+  description: 在线diff工具，用于比较文本找出差异
