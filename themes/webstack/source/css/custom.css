@@ -2,6 +2,7 @@
 * {
   font-family: "PingFang SC", sans-serif;
   font-weight: normal;
+  letter-spacing: 1px;
 }
 
 /* 导航栏 */
@@ -9,7 +10,7 @@ nav.navbar.user-info-navbar {
   background: rgba(255, 255, 255) !important;
   height: 66px;
 }
-body.night nav.navbar.user-info-navbar {
+.night nav.navbar.user-info-navbar {
   background: rgba(0, 0, 0) !important;
 }
 .user-info-navbar .user-info-menu > li {
@@ -23,7 +24,7 @@ body.night nav.navbar.user-info-navbar {
 .user-info-navbar .user-info-menu > li a[data-toggle="sidebar"] {
   padding-left: 20px;
 }
-body.night .user-info-navbar .user-info-menu > li > a,
+.night .user-info-navbar .user-info-menu > li > a,
 .user-info-navbar .user-info-menu > li > a {
   height: 66px !important;
 }
@@ -46,7 +47,7 @@ img.hidden-xs {
 }
 
 /* GitHub 右上角 猫 */
-body.night a.github-corner svg {
+.night a.github-corner svg {
   fill: #fff !important;
   color: #151513 !important;
 }
@@ -57,7 +58,11 @@ input#txt {
   background: rgba(255, 255, 255, 0.66) !important;
   border-radius: 50px;
 }
-body.night input#txt {
+input#txt::placeholder {
+  font-size: 18px;
+  color: #888;
+}
+.night input#txt {
   background: rgba(0, 0, 0, 0.55) !important;
 }
 .sousuo {
@@ -73,6 +78,16 @@ div.search:hover {
   /* 搜索框拉长 - 先快后慢 */
   transition: all 0.3s cubic-bezier(0, 0.3, 0.5, 1);
 }
+.search-input {
+  font-size: 18px !important;
+  color: #000 !important;
+}
+.night .search-input {
+  color: #fff !important;
+}
+.search-icon {
+  left: 5px;
+}
 
 /* 网址卡片 - 毛玻璃 */
 .xe-widget.xe-conversations {
@@ -81,7 +96,7 @@ div.search:hover {
   background: rgba(255, 255, 255, 0.66) !important;
   backdrop-filter: saturate(160%) blur(18px);
 }
-body.night .xe-widget.xe-conversations {
+.night .xe-widget.xe-conversations {
   border: 2px solid #bbb;
   background: rgba(0, 0, 0, 0.55) !important;
 }
@@ -97,7 +112,7 @@ div.bg {
     no-repeat center center;
   background-size: cover; /* 填充 */
 }
-body.night div.bg {
+.night div.bg {
   background: url("https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/TortoiseFairyHouse_night.jpg")
     no-repeat center center;
   background-size: cover; /* 填充 */
@@ -111,7 +126,7 @@ body.page-body.boxed-container.vsc-initialized {
 .boxed-container div .main-content {
   background: rgba(255, 255, 255, 0.66) !important;
 }
-body.night.boxed-container div .main-content {
+.night.boxed-container div .main-content {
   background: rgba(0, 0, 0, 0.66) !important;
 }
 
@@ -149,7 +164,7 @@ footer.main-footer.sticky.footer-type-1 {
   background: rgba(255, 255, 255, 0.66) !important;
   backdrop-filter: saturate(160%) blur(18px);
 }
-body.night footer.main-footer.sticky.footer-type-1 {
+.night footer.main-footer.sticky.footer-type-1 {
   background: rgba(0, 0, 0, 0.55) !important;
 }
 .footer-inner p {
@@ -166,9 +181,9 @@ body.night footer.main-footer.sticky.footer-type-1 {
 /* 网址卡片标题 */
 h4.text-gray {
   font-family: "Candy", sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   color: #fff;
-  text-shadow: -1px 0 #888888, 0 1px #888888, 1px 0 #888888, 0 -1px #888888;
+  text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
   margin: 20px 0 0 0;
   text-align: center;
 }
@@ -176,19 +191,19 @@ h4.text-gray {
   color: #666;
   text-align: left;
 }
-body.night .col-md-12 h4.text-gray {
+.night .col-md-12 h4.text-gray {
   color: #fff;
 }
 strong {
   font-family: "Candy", sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: normal;
 }
 p.overflowClip_2 {
-  font-size: 15px;
+  font-size: 16px;
   color: #808080;
 }
-body.night p.overflowClip_2 {
+.night p.overflowClip_2 {
   color: #aaa !important;
 }
 
@@ -215,18 +230,24 @@ i::before {
 }
 /* 网址卡片标题图标 */
 .linecons-tag:before {
-  font-size: 22px;
+  font-size: 24px;
 }
 /* 搜索图标 */
+.fa-search {
+  color: #aaa;
+}
+.fa-search:hover {
+  color: #666;
+}
 .fa-search:before {
-  font-size: 22px;
+  font-size: 24px;
 }
 /* 展开箭头 */
-.sidebar-menu .main-menu li.has-sub>a:before {
+.sidebar-menu .main-menu li.has-sub > a:before {
   font-size: 17px;
 }
 /* 右下角回到首页图标 */
-body.night div.go-up a i {
+.night div.go-up a i {
   color: #fff;
 }
 
@@ -235,15 +256,15 @@ body.night div.go-up a i {
   font-size: 16px;
   color: #666;
 }
-body.night .footer-inner p {
+.night .footer-inner p {
   color: #bbb;
 }
 blockquote p a,
 .footer-inner strong {
   color: #6ac6bc;
 }
-body.night blockquote p a,
-body.night .footer-inner strong {
+.night blockquote p a,
+.night .footer-inner strong {
   color: #81d8cf;
 }
 /* 字体 --------------------------------------------------------- 结束 */
