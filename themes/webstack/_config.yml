@@ -27,6 +27,9 @@ menu:
   - name: 学习
     icon: iconfont icon-study
     config: 学习
+  - name: 编程
+    icon: iconfont icon-study
+    config: 编程
   - name: 视图文素材
     icon: iconfont icon-photo
     config: 视图文素材

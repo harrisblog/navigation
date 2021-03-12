@@ -6,10 +6,10 @@
 title: 诗颂的网址导航
 subtitle: Hassan Wong
 description: 网站包含 Hassan Wong 本人常用网站，同时提供多站点导航功能，若是喜欢赶紧收藏吧
-keywords: 网址收藏,常用网址,网址导航,网址大全,Hassan's Blog,常用,私人导航
+keywords: 网址收藏,常用网址,网址导航,网址大全,Hassan's Blog,常用网站,私人导航,诗颂,HassanWong
 author: Hassan Wong
 language: en
-timezone: ''
+timezone: ""
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
@@ -24,9 +24,9 @@ pretty_urls:
 # Directory
 source_dir: source
 public_dir: public
-# tag_dir: 
-# archive_dir: 
-# category_dir: 
+# tag_dir:
+# archive_dir:
+# category_dir:
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -38,7 +38,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -48,21 +48,21 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -82,7 +82,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination

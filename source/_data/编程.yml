@@ -1,0 +1,20 @@
+- name: 百度大脑 AI STUDIO
+  url: https://aistudio.baidu.com/
+  img: https://aistudio.baidu.com/favicon.ico
+  description: 集开放数据、开源算法、免费算力三位一体，为开发者提供高效学习和开发环境、高价值高奖金竞赛项目
+- name: 头歌 EduCoder
+  url: https://www.educoder.net/
+  img: https://www.educoder.net/favicon.ico
+  description: 信息技术类实践教学平台，涵盖了计算机、大数据、云计算、人工智能、软件工程、物联网等专业课程
+- name: HDU OJ 杭电OJ
+  url: http://acm.hdu.edu.cn/
+  img: http://acm.hdu.edu.cn/favicon.ico
+  description: 编程刷题平台
+- name: 力扣 LeetCode
+  url: https://leetcode-cn.com/
+  img: https://leetcode-cn.com/favicon.ico
+  description: 编程刷题平台
+- name: 牛客网 NOWCODER
+  url: https://www.nowcoder.com/
+  img: https://static.nowcoder.com/images/logo_87_87.png
+  description: 在线进行企业校招实习笔试面试真题模拟考试练习，全面提升求职竞争力，找到好工作，拿到好offer
