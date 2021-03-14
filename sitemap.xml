@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://navi.hassanwong.top/2021/02/20/hello-world/</loc>
+    <loc>https://navi.hassanwong.top/hello-world.html</loc>
     
     <lastmod>2021-02-20</lastmod>
     
@@ -18,7 +18,7 @@
 
   <url>
     <loc>https://navi.hassanwong.top/</loc>
-    <lastmod>2021-03-12</lastmod>
+    <lastmod>2021-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
