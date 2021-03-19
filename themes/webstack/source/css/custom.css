@@ -296,7 +296,7 @@ input#txt {
 
 /* 滚动条 */
 ::-webkit-scrollbar {
-  width: 13px;
+  width: 12px;
   height: 8px;
 }
 ::-webkit-scrollbar-track {
