@@ -18,12 +18,12 @@ menu:
   - name: 与我相关
     icon: far fa-star
     submenu:
-      - name: 社交平台
-        icon: iconfont icon-social
-        config: 社交平台
       - name: 博客常用
         icon: iconfont icon-blog
         config: 博客常用
+      - name: 社交平台
+        icon: iconfont icon-social
+        config: 社交平台
   - name: 学习
     icon: iconfont icon-study
     config: 学习

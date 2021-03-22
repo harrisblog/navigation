@@ -1,7 +1,3 @@
-- name: Hassan's Blog
-  url: https://hassanwong.top
-  img: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/logos/myblog.png
-  description: 我的博客
 - name: Bilibili
   url: https://space.bilibili.com/383883097
   img: https://i1.hdslb.com/bfs/face/c08cc198886bb8d3992d5ecf408c95f85b492753.jpg

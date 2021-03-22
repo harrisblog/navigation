@@ -92,12 +92,12 @@ div.search:hover {
 /* 网址卡片 - 毛玻璃 */
 .xe-widget.xe-conversations {
   border-radius: 10px;
-  border: 2px solid #888;
+  border: 2px solid #aaa;
   background: rgba(255, 255, 255, 0.66) !important;
   backdrop-filter: saturate(160%) blur(18px);
 }
 .night .xe-widget.xe-conversations {
-  border: 2px solid #bbb;
+  border: 2px solid #aaa;
   background: rgba(0, 0, 0, 0.55) !important;
 }
 
@@ -113,8 +113,7 @@ div.bg {
   background-size: cover; /* 填充 */
 }
 .night div.bg {
-  background: url("https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/TortoiseFairyHouse_night.jpg")
-    no-repeat center center;
+  background: url("/images/TortoiseFairyHouse_dark.png") no-repeat center center;
   background-size: cover; /* 填充 */
 }
 

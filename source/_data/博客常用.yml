@@ -1,3 +1,11 @@
+- name: Hassan's Blog
+  url: https://hassanwong.top
+  img: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/logos/myblog.png
+  description: 我的个人博客
+- name: 诗颂的文档
+  url: https://doc.hassanwong.top
+  img: https://cdn.jsdelivr.net/gh/hassanblog/hassanblog.github.io/hassan/favicon.png
+  description: 我的文档网站
 - name: 阿里云
   url: https://account.aliyun.com/login/qr_login.htm
   img: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
