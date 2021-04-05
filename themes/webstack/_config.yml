@@ -1,10 +1,10 @@
-favicon: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/favicon.ico
-banner: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/webstack_banner_cn.png
+favicon: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/favicon.ico
+banner: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/webstack_banner_cn.png
 
 logo:
-  expanded: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/logo@2x.png
-  collapsed: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/logo-collapsed@2x.png
-  dark: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/logo_dark@2x.png
+  expanded: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logo@2x.png
+  collapsed: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logo-collapsed@2x.png
+  dark: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logo_dark@2x.png
 
 flag:
   icon: flag-cn
@@ -39,6 +39,9 @@ menu:
   - name: 音乐
     icon: iconfont icon-music
     config: 音乐
+  - name: 友链
+    icon: iconfont icon-blogroll
+    config: 友链
 
 about:
   url: /about_website/
@@ -53,7 +56,7 @@ aboutPage:
     head: 关于站长
     name: Hassan Wong
     url: https://hassanwong.top
-    img: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/logos/myblog.png
+    img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logos/myblog.png
     description: 时不我待，只争朝夕
     html: ""
 
@@ -68,7 +71,7 @@ busuanzi:
 custom:
   head: # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2204525_joeuk4trrwe.css">
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2204525_gygqha6hsg9.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" media="defer" onload="this.media='all'">
   body: # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
     <div class="bg"></div>

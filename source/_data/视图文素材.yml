@@ -16,7 +16,7 @@
   description: 国内功能很强大且图标内容很丰富的矢量图标库
 - name: Font Awesome
   url: https://fontawesome.dashgame.com/
-  img: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/logos/Font_Awesome.png
+  img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logos/Font_Awesome.png
   description: 一套绝佳的图标字体库和CSS框架
 - name: 鸠摩搜索 Jiumo Search
   url: https://www.jiumodiary.com/

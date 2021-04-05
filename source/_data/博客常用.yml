@@ -1,13 +1,17 @@
 - name: Hassan's Blog
-  url: https://hassanwong.top
-  img: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/logos/myblog.png
-  description: 我的个人博客
+  url: https://hassanwong.top/
+  img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logos/myblog.png
+  description: 我的个人博客，欢迎访问~
+- name: 本站搭建教程
+  url: https://hassanwong.top/posts/61c6c2e8/
+  img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logos/myblog.png
+  description: Hexo版WebStack导航网站搭建教程，欢迎留言~
 - name: 诗颂的文档
-  url: https://doc.hassanwong.top
+  url: https://doc.hassanwong.top/
   img: https://cdn.jsdelivr.net/gh/hassanblog/hassanblog.github.io/hassan/favicon.png
   description: 我的文档网站
 - name: 阿里云
-  url: https://account.aliyun.com/login/qr_login.htm
+  url: https://account.aliyun.com/login/qr_login.html
   img: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
   description: 本站域名管理
 - name: Vercel - Dashboard

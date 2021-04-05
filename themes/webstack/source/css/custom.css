@@ -108,12 +108,13 @@ div.bg {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/TortoiseFairyHouse.jpg")
+  background: url("https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/TortoiseFairyHouse.jpg")
     no-repeat center center;
   background-size: cover; /* 填充 */
 }
 .night div.bg {
-  background: url("/images/TortoiseFairyHouse_dark.png") no-repeat center center;
+  background: url("https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/TortoiseFairyHouse_dark.png")
+    no-repeat center center;
   background-size: cover; /* 填充 */
 }
 
@@ -140,7 +141,7 @@ a.smooth {
   border-radius: 10px;
 }
 .sidebar-menu-inner.ps-container {
-  background: url(https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/LeftColumn.jpg) !important;
+  background: url(https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/LeftColumn.jpg) !important;
   background-attachment: fixed;
 }
 .sidebar-menu.collapsed .sidebar-menu-inner {
@@ -174,7 +175,7 @@ footer.main-footer.sticky.footer-type-1 {
 /* 字体 --------------------------------------------------------- 开始 */
 @font-face {
   font-family: "Candy"; /* 字体名自定义即可 */
-  src: url("/fonts/Candy.ttf"); /* 字体文件路径 */
+  src: url("https://cdn.jsdelivr.net/gh/hassanblog/navigation/fonts/Candy.ttf"); /* 字体文件路径 */
   font-display: swap;
 }
 /* 网址卡片标题 */
@@ -264,7 +265,7 @@ blockquote p a,
 }
 .night blockquote p a,
 .night .footer-inner strong {
-  color: #81d8cf;
+  color: #62cec4;
 }
 /* 字体 --------------------------------------------------------- 结束 */
 
@@ -321,4 +322,11 @@ input#txt {
 ::-moz-selection {
   color: #fff;
   background-color: #1f1f1f;
+}
+
+/* 左上角语言 */
+@media screen and (min-width: 769px) {
+  li.dropdown.hover-line.language-switcher {
+    display: none;
+  }
 }

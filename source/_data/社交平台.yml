@@ -6,15 +6,19 @@
   url: https://weibo.com/u/6574421101
   img: https://tvax2.sinaimg.cn/crop.0.0.996.996.180/007aVBg1ly8gifz8qq3tsj30ro0rotbm.jpg?KID=imgbed,tva&Expires=1612338781&ssig=IffWoVn%2BQe
   description: 通常发背单词的动态
-- name: 全民K歌
-  url: https://kg.qq.com/node/personal?uid=639b9c81222c368234
-  img: https://shp.qlogo.cn/ttsing/161471190/161471190/100?ts=0
-  description: 不定期上传我的翻唱
-- name: 网易云音乐
-  url: https://music.163.com/#/user/home?id=1322854335
-  img: http://p1.music.126.net/3PlKq2yTmcXLWGlLCmxnTg==/109951165626755565.jpg?param=180y180
-  description: 擅长曲风：Hip-pop、R&B、Pop music
 - name: QQ音乐
   url: https://y.qq.com/n/yqq/playlist/7934226388.html#stat=y_new.profile.create_playlist.click&dirid=1
   img: https://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqZBeAAuMgEIUpc74ia6JKzwBRuZrbjZS3ah6ibdSC6R52hoNcoU4QS1xo7dCKp8cCnw8KoSxpn2eLA/132
   description: 擅长曲风：Hip-pop、R&B、Pop music
+- name: 网易云音乐
+  url: https://music.163.com/#/user/home?id=1322854335
+  img: http://p1.music.126.net/3PlKq2yTmcXLWGlLCmxnTg==/109951165626755565.jpg?param=180y180
+  description: 擅长曲风：Hip-pop、R&B、Pop music
+- name: 全民K歌
+  url: https://kg.qq.com/node/personal?uid=639b9c81222c368234
+  img: https://shp.qlogo.cn/ttsing/161471190/161471190/100?ts=0
+  description: 不定期上传我的翻唱
+- name: 知乎
+  url: https://www.zhihu.com/people/song-69-76
+  img: https://pic2.zhimg.com/v2-ed131d75f6ed752fd18fb1ea5d3c9fa3_xl.jpg
+  description: 有时会回答一些问题来 Kill Time，也会提些我遇到的问题

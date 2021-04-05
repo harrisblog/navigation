@@ -4,12 +4,16 @@
   description: 在线封面设计神器
 - name: Bgimage
   url: https://nav.rdonly.com/laboratory/bgimage/backimage.html
-  img: https://cdn.jsdelivr.net/gh/hassanblog/navigation/images/alphabet/B.png
-  description: 一款简约风的封面制作网站
+  img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/alphabet/B.png
+  description: 一款操作简洁的封面制作网站
 - name: 可画 Canva
   url: https://www.canva.cn/
   img: https://static.canva.cn/static/images/favicon.ico
   description: 封面制作网站
+- name: Brandmark（强推）
+  url: https://app.brandmark.io/v3/
+  img: https://app.brandmark.io/favicon32.gif
+  description: Logo制作网站
 - name: Convertio 文件转换器
   url: https://convertio.co/
   img: https://static.convertio.co/favicon.ico
