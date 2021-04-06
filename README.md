@@ -1,43 +1,34 @@
-# hexo-theme-webstack
+# HassanWong二创 - Hexo版WebStack主题
 
-> 一款基于[WebStackPage](https://github.com/WebStackPage/WebStackPage.github.io)的 Hexo 主题。
+> 一款基于[WebStackPage](https://github.com/WebStackPage/WebStackPage.github.io)的 Hexo 主题，由[HassanWong](https://hassanwong.top/)二创，主要**对外观进行了美化魔改**，本篇markdown文档微改于[HCLonely](https://github.com/HCLonely/hexo-theme-webstack/blob/master/README_CN.md)。
 
-![screenshot](https://github.com/HCLonely/hexo-theme-webstack/raw/master/screenshot/screenshot.png)
+效果图👇
 
-## 安装
+![screenshot](https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://navi.hassanwong.top/)
 
-### hexo >= 4.0
+### 安装
 
-```shell
-git clone https://github.com/HCLonely/hexo-theme-webstack themes/webstack
-```
+若是喜欢我的美化魔改，那就直接**fork本项目的source分支**即可，顺便点个⭐，爱你哟~
 
-### hexo >= 5.0
+如果有点不会搭建可以参考我之前写的👉[搭建教程](https://hassanwong.top/posts/61c6c2e8/)，而你现在看的这个文档主要是讲**搭建之后配置文件里各参数的含义**。
 
-```shell
-npm install hexo-theme-webstack -S
-```
+**注意**❗：
 
-or
+1. 底栏footer建议上保留源设计者viggo和HassanWong我的信息，不嫌底栏长你可以额外再加个`Used by <你的昵称>`，更改位置在`<本地根目录>\themes\webstack\layout\common\footer.ejs`第5-7行，取决于你咯~
 
-```shell
-cnpm install hexo-theme-webstack -S
-```
+    ```ejs
+    <% var now = new Date().getFullYear(); %>
+          &copy; <%- setting.since === now ? setting.since : (setting.since + " - " + now) %>
+          | Designed by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> | Beautified By <a href="hassanwong.top"><strong><%- config.author %></strong></a> | Powered by <a href="https://hexo.io/" target="_blank"><strong>Hexo</strong></a> & <a href="https://github.com/HCLonely/hexo-theme-webstack/" target="_blank"><strong>hexo-theme-webstack</strong></a>
+    ```
 
-## 配置
+2. 最后建议将背景等地方换成你自己的，不然风格都一样就没意思了😭
 
-### hexo >= 4.0
+<br>
 
-将`themes/webstack/`目录内的`_config.yml`文件复制到`博客根目录/source/_data/`目录内，并重命名为`webstack.yml`.
+------
 
-通过编辑`webstack.yml`进行配置。
-
-### hexo >= 5.0
-
-- 如果是新安装本主题，安装完成后会在根目录生成一个`_config.webstack.yml`文件，直接编辑`_config.webstack.yml`文件进行配置即可。
-- 如果是主题升级，可以使用 hexo >= 4.0 的配置方法，也可以将原来的配置文件移动到根目录，并重命名为`_config.webstack.yml`.
-
-> 注意：`博客根目录/_config.webstack.yml`和`博客根目录/source/_data/webstack.yml`请只保留一个！
+> ❗ 以下皆是_config.yml的配置参数，具体按照喜好来配置。在美化魔改上有什么问题的来[我博客留言板](https://hassanwong.top/comments/)问我，其它问题可以咨询Hexo版WebStack的作者[HCLonely](https://blog.hclonely.com/posts/3cd4fb34/)。
 
 ### favicon
 
