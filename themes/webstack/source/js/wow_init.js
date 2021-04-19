@@ -14,7 +14,7 @@ wow = new WOW({
     offset: 0,
     // 定义浏览器视口底部与隐藏框顶部之间的距离。
     // 当用户滚动并到达此距离时，将显示隐藏的框。
-    mobile: true,
+    mobile: false,
     // 在移动设备上打开/关闭wow.js。
     live: true
     // 在页面上检查新的 wow.js元素。

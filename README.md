@@ -10,11 +10,11 @@
 
 若是喜欢我的美化魔改，那就直接**fork本项目的source分支**即可，顺便点个⭐，爱你哟~
 
-如果有点不会搭建可以参考我之前写的👉[搭建教程](https://hassanwong.top/posts/61c6c2e8/)，而你现在看的这个文档主要是讲**搭建之后配置文件里各参数的含义**。
+如果还没有搭建成功，可以参考我之前写的👉[搭建教程](https://hassanwong.top/posts/61c6c2e8/)，而你现在看的这个文档主要是讲**搭建之后可以自定义配置的参数**。
 
-**注意**❗：
+### **本项目使用须知**❗：
 
-1. 底栏footer建议上保留源设计者viggo和HassanWong我的信息，不嫌底栏长你可以额外再加个`Used by <你的昵称>`，更改位置在`<本地根目录>\themes\webstack\layout\common\footer.ejs`第5-7行，取决于你咯~
+1. 底栏footer建议保留源设计者viggo和HassanWong我的信息，不嫌底栏长你可以额外再加个`Used by <你的昵称>`，更改位置在`<项目根目录>\themes\webstack\layout\common\footer.ejs`第5-7行，取决于你咯~
 
     ```ejs
     <% var now = new Date().getFullYear(); %>

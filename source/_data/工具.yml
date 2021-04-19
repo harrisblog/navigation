@@ -6,7 +6,7 @@
   url: https://nav.rdonly.com/laboratory/bgimage/backimage.html
   img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/alphabet/B.png
   description: 一款操作简洁的封面制作网站
-- name: 可画 Canva
+- name: 可画 Canva（强推）
   url: https://www.canva.cn/
   img: https://static.canva.cn/static/images/favicon.ico
   description: 封面制作网站
@@ -46,3 +46,11 @@
   url: https://www.diffchecker.com
   img: https://www.diffchecker.com/favicon.ico
   description: 在线diff工具，用于比较文本找出差异
+- name: 新拟态风格（强推）
+  url: https://neumorphism.io/#e0e0e0
+  img: https://neumorphism.io/favicon.ico
+  description: 为网页板块生成新拟态风格的css代码
+- name: 错别字检测
+  url: http://www.biezi.com/
+  img: https://p.zhheo.com/a8396459e2cf40b35201190ba6cc36f070c87f44.png!cover
+  description: 为文章检查错别字
