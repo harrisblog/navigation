@@ -1,8 +1,8 @@
-- name: Hassan's Blog
+- name: Hassan's Blog🔥
   url: https://hassanwong.top/
   img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logos/myblog.png
   description: 我的个人博客，欢迎访问~
-- name: 本站搭建教程
+- name: 本站搭建教程🔥
   url: https://hassanwong.top/posts/61c6c2e8/
   img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logos/myblog.png
   description: Hexo版WebStack导航网站搭建教程，欢迎留言~
@@ -25,7 +25,7 @@
 - name: LeanCloud
   url: https://console.leancloud.app/login
   img: https://console.leancloud.app/favicon.ico
-  description: 本站友链朋友圈后台
+  description: 本站友链朋友圈、哔哔后台
 - name: 百度搜索资源平台
   url: https://ziyuan.baidu.com/linksubmit/index?site=http://hassanwong.top/
   img: https://ziyuan.baidu.com/favicon.ico
@@ -34,3 +34,11 @@
   url: https://tongji.baidu.com/web/10000330339/overview/index?siteId=16324130
   img: https://tongji.baidu.com/favicon.ico
   description: 本站数据统计
+- name: 站长工具
+  url: http://tool.chinaz.com/
+  img: http://csstools.chinaz.com/favicon.ico
+  description: 站长工具是站长的必备工具，可以了解SEO数据变化等等
+- name: 站点测速
+  url: http://ping.chinaz.com/
+  img: http://csstools.chinaz.com/favicon.ico
+  description: 可以多个地点Ping服务器以检测服务器响应速度

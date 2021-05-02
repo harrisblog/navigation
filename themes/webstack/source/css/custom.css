@@ -52,7 +52,7 @@ img.hidden-xs {
   color: #151513 !important;
 }
 
-/* 搜索栏 */
+/* 搜索栏 ------------------------------------------------------------ 开始 */
 input#txt {
   border: 2px solid #888;
   background: rgba(255, 255, 255, 0.66) !important;
@@ -100,18 +100,31 @@ ul.search-engine-list.search-engine-list_zmki_ul {
   padding-left: 26px;
 }
 .search-engine-list li {
-  background: none !important;
+  background: transparent;
   color: #222;
   font-size: 17px;
+  transition: .3s;
 }
 .night .search-engine-list li {
   color: #ddd;
+  background: transparent !important;
+  transition: .3s;
+}
+.search-engine-list li:hover {
+  background: #fff;
+  border-radius: 30px;
+}
+.night .search-engine-list li:hover {
+  background: #666 !important;
+  border-radius: 30px;
 }
 .search-engine-tool {
   font-size: 17px;
+  color: #222;
 }
 strong.search-engine-tit {
   font-size: 18px;
+  color: #222;
 }
 .search-engine-tool > span{
   float: right;
@@ -122,6 +135,15 @@ strong.search-engine-tit {
   cursor: pointer;
   vertical-align: middle;
 }
+.search-engine {
+  width: 58% !important;
+}
+.search-engine-list::after {
+  height: 60px !important;
+  width: 100px !important;
+  top: -60px !important;
+}
+/* 搜索栏 ------------------------------------------------------------ 结束 */
 
 /* 网址卡片 - 毛玻璃 */
 .xe-widget.xe-conversations {
@@ -183,6 +205,7 @@ a.smooth {
 }
 .sidebar-menu .main-menu a {
   border: none;
+  transition: .3s;
 }
 .sidebar-menu .main-menu a:hover {
   background: #888;
