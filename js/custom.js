@@ -12,43 +12,43 @@ window.onload = function checkTime() {
 
 // 鼠标滑过网址卡片、输入框触发背景模糊 -----------------------------开始
 // 提示：一定要用querySelector来选择，用其它没效果
-var card = document.querySelectorAll('.box2');
-var bg = document.querySelector('.bg');
-var search = document.querySelector('.search')
-var speed;
-var timer = null;
-var timer1 = null;
-var blur = 0;
+// var card = document.querySelectorAll('.box2');
+// var bg = document.querySelector('.bg');
+// var search = document.querySelector('.search')
+// var speed;
+// var timer = null;
+// var timer1 = null;
+// var blur = 0;
 // var search_btn = document.querySelector('.search-btn') 
 // 利用循环绑定注册事件
-for (var i = 0; i < card.length; i++) {
-	card[i].onmouseout = function () {
-		Blur(0);
-	}
-	card[i].onmouseover = function () {
-		Blur(2.6);
-	}
-}
-search.onmouseout = function () {
-	Blur(0);
-}
-search.onmouseover = function () {
-	Blur(2.6);
-}
+// for (var i = 0; i < card.length; i++) {
+// 	card[i].onmouseout = function () {
+// 		Blur(0);
+// 	}
+// 	card[i].onmouseover = function () {
+// 		Blur(2.6);
+// 	}
+// }
+// search.onmouseout = function () {
+// 	Blur(0);
+// }
+// search.onmouseover = function () {
+// 	Blur(2.6);
+// }
 // 匀速过渡 - 模糊
-function Blur(target) {
-	clearInterval(timer);
-	timer = setInterval(function () {
-		target > blur ? speed = 0.1 : speed = -0.1;
-		if (blur == target) {
-			clearInterval(timer);
-		}
-		else {
-			blur += speed;
-			bg.style.filter = 'blur(' + blur + 'px)';
-		}
-	}, 8)
-}
+// function Blur(target) {
+// 	clearInterval(timer);
+// 	timer = setInterval(function () {
+// 		target > blur ? speed = 0.1 : speed = -0.1;
+// 		if (blur == target) {
+// 			clearInterval(timer);
+// 		}
+// 		else {
+// 			blur += speed;
+// 			bg.style.filter = 'blur(' + blur + 'px)';
+// 		}
+// 	}, 8)
+// }
 // 鼠标滑过网址卡片、输入框触发背景模糊 -----------------------------结束
 
 // 卖萌标题
