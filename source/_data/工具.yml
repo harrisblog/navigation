@@ -1,4 +1,8 @@
-- name: 爱设计🔥
+- name: Canva - 可画 🔥
+  url: https://www.canva.cn/
+  img: https://static.canva.cn/static/images/favicon.ico
+  description: 封面制作网站
+- name: 爱设计 🔥
   url: https://www.isheji.com/
   img: https://www.isheji.com/isheji_favicon.ico
   description: 在线封面设计神器
@@ -6,11 +10,7 @@
   url: https://nav.rdonly.com/laboratory/bgimage/backimage.html
   img: https://cdn.jsdelivr.net/gh/hassanblog/CDN/navi/alphabet/Letter_B.png
   description: 一款操作简洁的封面制作网站
-- name: Canva - 可画 🔥
-  url: https://www.canva.cn/
-  img: https://static.canva.cn/static/images/favicon.ico
-  description: 封面制作网站
-- name: Brandmark🔥
+- name: Brandmark 🔥
   url: https://app.brandmark.io/v3/
   img: https://app.brandmark.io/favicon32.gif
   description: Logo制作网站
@@ -42,11 +42,11 @@
   url: https://www.wjx.cn/
   img: https://image.wjx.cn/images/wlogo.png
   description: 免费使用问卷星创建问卷调查、在线考试、360度评估等应用
-- name: Diffchecker🔥
+- name: Diffchecker 🔥
   url: https://www.diffchecker.com
   img: https://www.diffchecker.com/favicon.ico
   description: 在线diff工具，用于比较文本找出差异
-- name: 新拟态风格🔥
+- name: 新拟态风格 🔥
   url: https://neumorphism.io/#e0e0e0
   img: https://neumorphism.io/favicon.ico
   description: 为网页板块生成新拟态风格的css代码

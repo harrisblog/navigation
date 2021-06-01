@@ -52,18 +52,22 @@ img.hidden-xs {
   color: #151513 !important;
 }
 
-/* 搜索栏 ------------------------------------------------------------ 开始 */
+/* 搜索框 ------------------------------------------------------------ 开始 */
 input#txt {
-  border: 2px solid #888;
   background: rgba(255, 255, 255, 0.66) !important;
   border-radius: 50px;
+  border: none;
 }
 input#txt::placeholder {
+  font-size: 18px;
+  color: #666;
+}
+.night input#txt::placeholder {
   font-size: 18px;
   color: #888;
 }
 .night input#txt {
-  background: rgba(0, 0, 0, 0.55) !important;
+  background: rgba(0, 0, 0, 0.6) !important;
 }
 .sousuo {
   padding: 88px 0;
@@ -80,7 +84,8 @@ div.search:hover {
 }
 .search-input {
   font-size: 18px !important;
-  color: #000 !important;
+  color: #111 !important;
+  padding-left: 50px;
 }
 .night .search-input {
   color: #fff !important;
@@ -143,18 +148,31 @@ strong.search-engine-tit {
   width: 100px !important;
   top: -60px !important;
 }
-/* 搜索栏 ------------------------------------------------------------ 结束 */
+/* 搜索图标 */
+.fa-search {
+  color: #888;
+}
+.fa-search:hover {
+  color: #111;
+}
+.night .fa-search:hover {
+  color: #ddd;
+}
+.fa-search:before {
+  font-size: 24px;
+}
+/* 搜索框 ------------------------------------------------------------ 结束 */
 
 /* 网址卡片 - 毛玻璃 */
 .xe-widget.xe-conversations {
-  border-radius: 10px;
-  border: 2px solid #aaa;
+  border-radius: 12px;
+  border: none;
   background: rgba(255, 255, 255, 0.66) !important;
-  backdrop-filter: saturate(160%) blur(18px);
+  backdrop-filter: saturate(150%) blur(20px);
 }
 .night .xe-widget.xe-conversations {
-  border: 2px solid #aaa;
-  background: rgba(0, 0, 0, 0.55) !important;
+  border: none;
+  background: rgba(0 , 0, 0, 0.6) !important;
 }
 
 /* 网站背景 */
@@ -215,6 +233,20 @@ a.smooth {
 .sidebar-menu .main-menu a:hover span {
   color: #fff;
 }
+span.title,
+span.tooltip-blue,
+span#busuanzi_container_site_pv,
+span#busuanzi_value_site_pv,
+span#busuanzi_container_site_uv,
+span#busuanzi_value_site_uv {
+  font-family: "Candy", sans-serif !important;
+  color: #ddd;
+  font-size: 17px;
+}
+.sidebar-menu .main-menu li.has-sub>a:before,
+.sidebar-menu i {
+  color: #ddd;
+}
 
 /* 底栏 */
 footer.main-footer.sticky.footer-type-1 {
@@ -229,7 +261,6 @@ footer.main-footer.sticky.footer-type-1 {
   vertical-align: center;
 }
 
-/* 字体 --------------------------------------------------------- 开始 */
 @font-face {
   font-family: "Candy"; /* 字体名自定义即可 */
   src: url("https://cdn.jsdelivr.net/gh/hassanblog/navigation/fonts/Candy.ttf"); /* 字体文件路径 */
@@ -264,35 +295,12 @@ p.overflowClip_2 {
   color: #aaa !important;
 }
 
-
-/* 左侧栏 */
-span.title,
-span.tooltip-blue,
-span#busuanzi_container_site_pv,
-span#busuanzi_value_site_pv,
-span#busuanzi_container_site_uv,
-span#busuanzi_value_site_uv {
-  font-family: "Candy", sans-serif !important;
-  color: #bbb;
-  font-size: 17px;
-}
-
 /* icon图标 */
 i::before {
   font-size: 17px;
 }
 /* 网址卡片标题图标 */
 .linecons-tag:before {
-  font-size: 24px;
-}
-/* 搜索图标 */
-.fa-search {
-  color: #aaa;
-}
-.fa-search:hover {
-  color: #666;
-}
-.fa-search:before {
   font-size: 24px;
 }
 /* 展开箭头 */
@@ -320,7 +328,17 @@ blockquote p a,
 .night .footer-inner strong {
   color: #62cec4;
 }
-/* 字体 --------------------------------------------------------- 结束 */
+
+/* 左上角站点logo */
+.sidebar-menu .logo-env {
+  padding: 10px 23px 10px 13px;
+  border-bottom: none;
+}
+/* 左上角功能按钮 */
+body.night .user-info-navbar .user-info-menu>li>a,
+body.night .user-info-navbar .user-info-menu>li>a:hover {
+  border: none !important;
+}
 
 /* 鼠标图标 -----------------------------------------------------------------------开始 */
 body {
@@ -375,11 +393,4 @@ input#txt {
 ::-moz-selection {
   color: #fff;
   background-color: #1f1f1f;
-}
-
-/* 左上角语言 */
-@media screen and (min-width: 769px) {
-  li.dropdown.hover-line.language-switcher {
-    display: none;
-  }
 }

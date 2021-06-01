@@ -1,8 +1,8 @@
-- name: Hassan's Blog🔥
+- name: Hassan's Blog 🔥
   url: https://hassanwong.top/
   img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logos/myblog.png
   description: 我的个人博客，欢迎访问~
-- name: 本站搭建教程🔥
+- name: 本站搭建教程 🔥
   url: https://hassanwong.top/posts/61c6c2e8/
   img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logos/myblog.png
   description: Hexo版WebStack导航网站搭建教程，欢迎留言~
@@ -38,7 +38,11 @@
   url: http://tool.chinaz.com/
   img: http://csstools.chinaz.com/favicon.ico
   description: 站长工具是站长的必备工具，可以了解SEO数据变化等等
-- name: 站点测速
-  url: http://ping.chinaz.com/
-  img: http://csstools.chinaz.com/favicon.ico
-  description: 可以多个地点Ping服务器以检测服务器响应速度
+- name: 网站测速 - Ping.cn
+  url: https://www.ping.cn/
+  img: https://www.ping.cn/favicon.ico
+  description: 免费提供网站速度测试
+- name: Cloudflare
+  url: https://dash.cloudflare.com/f2f657ef88142b794b30a3e5754d73e3
+  img: https://dash.cloudflare.com/favicon.ico
+  description: 帮助站点抵御大多数网络攻击，确保长期在线，提升性能、访问速度
