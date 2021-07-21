@@ -1,0 +1,28 @@
+- name: Canva - 可画 🔥
+  url: https://www.canva.cn/
+  img: https://static.canva.cn/static/images/favicon.ico
+  description: 封面制作网站
+- name: 爱设计 🔥
+  url: https://www.isheji.com/
+  img: https://www.isheji.com/isheji_favicon.ico
+  description: 在线封面设计神器
+- name: Bgimage
+  url: https://nav.rdonly.com/laboratory/bgimage/backimage.html
+  img: https://cdn.jsdelivr.net/gh/hassanblog/CDN/navi/alphabet/Letter_B.png
+  description: 一款操作简洁的封面制作网站
+- name: Brandmark 🔥
+  url: https://app.brandmark.io/v3/
+  img: https://app.brandmark.io/favicon32.gif
+  description: Logo制作网站
+- name: 未命名绘图 Online Diagram Software
+  url: https://app.diagrams.net
+  img: https://app.diagrams.net/favicon.ico
+  description: 在线绘图网站
+- name: ProcessOn
+  url: https://www.processon.com/
+  img: https://www.processon.com/favicon.ico
+  description: 免费在线作图，思维导图，流程图，实时协作
+- name: Bilibili封面提取
+  url: https://bilicover.magecorn.com/
+  img: https://www.bilibili.com/favicon.ico
+  description: 通过输入B站视频链接即可在线获取封面地址

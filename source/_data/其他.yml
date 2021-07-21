@@ -1,0 +1,36 @@
+- name: Convertio 文件转换器
+  url: https://convertio.co/
+  img: https://static.convertio.co/favicon.ico
+  description: 将您的文件转换成任意格式
+- name: Aconvert
+  url: https://www.aconvert.com/
+  img: https://www.aconvert.com/favicon.ico
+  description: 格式转换网站
+- name: 问卷星
+  url: https://www.wjx.cn/
+  img: https://image.wjx.cn/images/wlogo.png
+  description: 免费使用问卷星创建问卷调查、在线考试、360度评估等应用
+- name: Diffchecker 🔥
+  url: https://www.diffchecker.com
+  img: https://www.diffchecker.com/favicon.ico
+  description: 在线diff工具，用于比较文本找出差异
+- name: 新拟态风格 🔥
+  url: https://neumorphism.io/#e0e0e0
+  img: https://neumorphism.io/favicon.ico
+  description: 为网页板块生成新拟态风格的css代码
+- name: 错别字检测
+  url: http://www.biezi.com/
+  img: https://cdn.jsdelivr.net/gh/hassanblog/CDN/navi/alphabet/Letter_C.png
+  description: 为文章检查错别字
+- name: Mirror List - 镜像列表
+  url: https://www.library.ac.cn/
+  img: https://cdn.jsdelivr.net/gh/hassanblog/CDN/navi/alphabet/Letter_M.png
+  description: 访问海外镜像站点列表
+- name: Swiper 中文网
+  url: https://www.swiper.com.cn/
+  img: https://www.swiper.com.cn/templets/default/images/logo.png
+  description: 目前应用较广泛的移动端网页触摸内容滑动js插件
+- name: HTML👉JADE/PUG
+  url: http://html2jade.org/
+  img: http://html2jade.org/favicon.ico
+  description: HTML👉JADE/PUG 实时在线转换网站

@@ -1,4 +1,4 @@
-# HassanWong二创 - Hexo版WebStack主题
+# Hexo版WebStack主题导航网站 -  由HassanWong美化
 
 > 一款基于[WebStackPage](https://github.com/WebStackPage/WebStackPage.github.io)的 Hexo 主题，由[HassanWong](https://hassanwong.top/)二创，主要**对外观进行了美化魔改**，本篇markdown文档微改于[HCLonely](https://github.com/HCLonely/hexo-theme-webstack/blob/master/README_CN.md)。
 
@@ -8,21 +8,22 @@
 
 ### 安装
 
-若是喜欢我的美化魔改，那就直接**fork本项目的source分支**即可，顺便点个⭐，爱你哟~
+若是喜欢我的美化魔改，那就直接**fork本项目的source分支**即可，喜欢的话点个⭐支持一下
 
 如果还没有搭建成功，可以参考我之前写的👉[搭建教程](https://hassanwong.top/posts/61c6c2e8/)，而你现在看的这个文档主要是讲**搭建之后可以自定义配置的参数**。
 
 ### **本项目使用须知**❗：
 
-1. 底栏footer建议保留源设计者viggo和HassanWong我的信息，不嫌底栏长你可以额外再加个`Used by <你的昵称>`，更改位置在`<项目根目录>\themes\webstack\layout\common\footer.ejs`第5-7行，取决于你咯~
+1. 底栏footer建议保留原作者Viggo和HassanWong我的信息，不嫌底栏长你可以额外再加个`Used by <你的昵称>`，更改位置在`<项目根目录>\themes\webstack\layout\common\footer.ejs`第5-7行
 
-    ```ejs
+    ```diff
     <% var now = new Date().getFullYear(); %>
           &copy; <%- setting.since === now ? setting.since : (setting.since + " - " + now) %>
-          | Designed by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> | Beautified By <a href="hassanwong.top"><strong><%- config.author %></strong></a> | Powered by <a href="https://hexo.io/" target="_blank"><strong>Hexo</strong></a> & <a href="https://github.com/HCLonely/hexo-theme-webstack/" target="_blank"><strong>hexo-theme-webstack</strong></a>
+    -      | Designed by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> | Beautified By <a href="hassanwong.top"><strong><%- config.author %></strong></a> | Powered by <a href="https://hexo.io/" target="_blank"><strong>Hexo</strong></a> & <a href="https://github.com/HCLonely/hexo-theme-webstack/" target="_blank"><strong>hexo-theme-webstack</strong></a>
+    +      | Designed by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> | Beautified By <a href="hassanwong.top"><strong>Hassan Wong</strong></a> Used By <你的昵称> | Powered by <a href="https://hexo.io/" target="_blank"><strong>Hexo</strong></a> & <a href="https://github.com/HCLonely/hexo-theme-webstack/" target="_blank"><strong>hexo-theme-webstack</strong></a>     
     ```
 
-2. 最后建议将背景等地方换成你自己的，不然风格都一样就没意思了😭
+2. 最后提点要求，将所有图片换成你自己的，不然风格都一样就没意思了😭
 
 <br>
 

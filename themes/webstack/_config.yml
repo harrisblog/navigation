@@ -31,11 +31,17 @@ menu:
     icon: iconfont icon-code
     config: 编程
   - name: 视图文素材
-    icon: iconfont icon-photo
+    icon: iconfont icon-video
     config: 视图文素材
   - name: 工具
     icon: fas fa-tools
-    config: 工具
+    submenu:
+      - name: 图片
+        icon: iconfont icon-photo
+        config: 图片
+      - name: 其他
+        icon: iconfont icon-about
+        config: 其他
   - name: 音乐
     icon: iconfont icon-music
     config: 音乐
@@ -71,7 +77,7 @@ busuanzi:
 custom:
   head: # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2204525_ws6mnwmltgg.css">
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2204525_hp8kfmdhgq.css">
   body: # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
     <div class="bg"></div>
     <script src="/js/custom.js"></script>

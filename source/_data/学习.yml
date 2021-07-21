@@ -10,10 +10,6 @@
   url: https://www.zhihu.com/
   img: https://static.zhihu.com/heifetz/favicon.ico
   description: 中文互联网最大的问答社区和创作者聚集的原创内容平台
-- name: Bilibili
-  url: https://www.bilibili.com/
-  img: https://www.bilibili.com/favicon.ico
-  description: 国内知名的视频弹幕网站
 - name: 菜鸟教程
   url: https://www.runoob.com/
   img: https://static.runoob.com/images/favicon.ico
