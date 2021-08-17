@@ -1,0 +1,12 @@
+- name: 新拟态风格 🔥
+  url: https://neumorphism.io/#e0e0e0
+  img: https://neumorphism.io/favicon.ico
+  description: 为网页板块生成新拟态风格的css代码
+- name: codepen
+  url: https://codepen.io/
+  img: https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png
+  description: 前端页面设计网站，也有很多UI大佬的作品
+- name: scrimba - 斯克林巴
+  url: https://scrimba.com/
+  img: https://cdn.jsdelivr.net/gh/hassanblog/CDN/navi/alphabet/Letter_S.png
+  description: 前端互动式学习网站

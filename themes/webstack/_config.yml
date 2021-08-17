@@ -30,6 +30,9 @@ menu:
   - name: 编程
     icon: iconfont icon-code
     config: 编程
+  - name: 前端
+    icon: iconfont icon-cherry
+    config: 前端
   - name: 视图文素材
     icon: iconfont icon-video
     config: 视图文素材
@@ -77,7 +80,7 @@ busuanzi:
 custom:
   head: # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2204525_hp8kfmdhgq.css">
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2204525_b3hmznxn04.css">
   body: # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
     <div class="bg"></div>
     <script src="/js/custom.js"></script>
