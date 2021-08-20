@@ -54,7 +54,7 @@ img.hidden-xs {
 
 /* 搜索框 ------------------------------------------------------------ 开始 */
 input#txt {
-  background: rgba(255, 255, 255, 0.66) !important;
+  background: rgba(255, 255, 255, 0.7) !important;
   border-radius: 50px;
   border: none;
 }
@@ -67,7 +67,7 @@ input#txt::placeholder {
   color: #888;
 }
 .night input#txt {
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(0, 0, 0, 0.7) !important;
 }
 .sousuo {
   padding: 88px 0;
@@ -94,11 +94,10 @@ div.search:hover {
   left: 5px;
 }
 .search-engine {
-  background: rgba(255, 255, 255, 0.66) !important;
-  backdrop-filter: saturate(160%) blur(18px);
+  background: rgba(255, 255, 255, 0.7) !important;
 }
 .night .search-engine {
-  background: rgba(0, 0, 0, 0.55) !important;
+  background: rgba(0, 0, 0, 0.7) !important;
 }
 ul.search-engine-list.search-engine-list_zmki_ul {
   list-style: none;
@@ -108,12 +107,12 @@ ul.search-engine-list.search-engine-list_zmki_ul {
   background: transparent;
   color: #222;
   font-size: 17px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .night .search-engine-list li {
   color: #ddd;
   background: transparent !important;
-  transition: .3s;
+  transition: 0.3s;
 }
 .search-engine-list li:hover {
   background: #fff;
@@ -125,18 +124,25 @@ ul.search-engine-list.search-engine-list_zmki_ul {
 }
 .search-engine-tool {
   font-size: 17px;
-  color: #222;
+  color: black;
+}
+.night .search-engine-tool {
+  color: white;
 }
 strong.search-engine-tit {
   font-size: 18px;
-  color: #222;
+  color: black;
 }
-.search-engine-tool > span{
+.night strong.search-engine-tit {
+  color: white;
+}
+.search-engine-tool > span {
   float: right;
   display: inline-block;
   width: 25px;
   height: 15px;
-  background: url('https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/off_on.png') no-repeat 0px 0px;
+  background: url("https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/off_on.png")
+    no-repeat 0px 0px;
   cursor: pointer;
   vertical-align: middle;
 }
@@ -163,110 +169,20 @@ strong.search-engine-tit {
 }
 /* 搜索框 ------------------------------------------------------------ 结束 */
 
-/* 网址卡片 - 毛玻璃 */
+/* 网址卡片 ---------------------------------------------------------- 开始*/
 .xe-widget.xe-conversations {
   border-radius: 12px;
   border: none;
-  background: rgba(255, 255, 255, 0.66) !important;
-  backdrop-filter: saturate(150%) blur(20px);
+  background: rgba(255, 255, 255, 0.7) !important;
 }
 .night .xe-widget.xe-conversations {
   border: none;
-  background: rgba(0 , 0, 0, 0.6) !important;
+  background: rgba(0, 0, 0, 0.7) !important;
 }
-
-/* 网站背景 */
-div.bg {
-  /* position一定要加fixed，可以使图片固定在浏览器，bg-attachment没这好使 */
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/TortoiseFairyHouse.jpg")
-    no-repeat center center;
-  background-size: cover; /* 填充 */
+body.night .box2:hover {
+  background: rgba(0, 0, 0, 0.7) !important;
 }
-.night div.bg {
-  background: url("https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/TortoiseFairyHouse_dark.png")
-    no-repeat center center;
-  background-size: cover; /* 填充 */
-}
-
-/* 关于我页面 */
-body.page-body.boxed-container.vsc-initialized {
-  /* 禁止滚动 */
-  overflow: hidden;
-}
-.boxed-container div .main-content {
-  background: rgba(255, 255, 255, 0.66) !important;
-}
-.night.boxed-container div .main-content {
-  background: rgba(0, 0, 0, 0.66) !important;
-}
-
-/* 左侧栏 */
-.sidebar-menu .main-menu {
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-a.smooth {
-  border-radius: 10px;
-}
-.sidebar-menu-inner.ps-container {
-  background: url(https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/LeftColumn.jpg) !important;
-  background-attachment: fixed;
-}
-.sidebar-menu.collapsed .sidebar-menu-inner {
-  position: fixed;
-}
-.sidebar-menu .main-menu a {
-  border: none;
-  transition: .3s;
-}
-.sidebar-menu .main-menu a:hover {
-  background: #888;
-  border-radius: 10px;
-}
-.sidebar-menu .main-menu a:hover i,
-.sidebar-menu .main-menu a:hover span {
-  color: #fff;
-}
-span.title,
-span.tooltip-blue,
-span#busuanzi_container_site_pv,
-span#busuanzi_value_site_pv,
-span#busuanzi_container_site_uv,
-span#busuanzi_value_site_uv {
-  font-family: "Candy", sans-serif !important;
-  color: #ddd;
-  font-size: 17px;
-}
-.sidebar-menu .main-menu li.has-sub>a:before,
-.sidebar-menu i {
-  color: #ddd;
-}
-
-/* 底栏 */
-footer.main-footer.sticky.footer-type-1 {
-  background: rgba(255, 255, 255, 0.66) !important;
-  backdrop-filter: saturate(160%) blur(18px);
-}
-.night footer.main-footer.sticky.footer-type-1 {
-  background: rgba(0, 0, 0, 0.55) !important;
-}
-.footer-inner p {
-  text-align: center;
-  vertical-align: center;
-}
-
-@font-face {
-  font-family: "Candy"; /* 字体名自定义即可 */
-  src: url("https://cdn.jsdelivr.net/gh/hassanblog/navigation/fonts/Candy.ttf"); /* 字体文件路径 */
-  font-display: swap;
-}
-/* 网址卡片标题 */
+/* 分类标题 */
 h4.text-gray {
   font-family: "Candy", sans-serif;
   font-size: 24px;
@@ -291,17 +207,116 @@ p.overflowClip_2 {
   font-size: 16px;
   color: #808080;
 }
-.night p.overflowClip_2 {
+body.night .xe-comment p {
   color: #aaa !important;
+}
+/* 标题图标 */
+.linecons-tag:before {
+  font-size: 24px;
+}
+/* 标题 */
+body.night .xe-comment a {
+  color: white;
+}
+/* 网址卡片 ---------------------------------------------------------- 结束*/
+
+/* 网站背景 */
+div.bg {
+  /* position一定要加fixed，可以使图片固定在浏览器，bg-attachment没这好使 */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/TortoiseFairyHouse.jpg")
+    no-repeat center center;
+  background-size: cover; /* 填充 */
+}
+.night div.bg {
+  background: url("https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/TortoiseFairyHouse_dark.png")
+    no-repeat center center;
+  background-size: cover; /* 填充 */
+}
+
+/* 关于我页面 */
+body.page-body.boxed-container.vsc-initialized {
+  /* 禁止滚动 */
+  overflow: hidden;
+}
+.boxed-container div .main-content {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.night.boxed-container div .main-content {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* 左侧栏 ------------------------------------------------------------------开始 */
+.sidebar-menu .main-menu {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sidebar-menu-inner.ps-container {
+  background: url(https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/LeftColumn.jpg) !important;
+  background-attachment: fixed;
+}
+.sidebar-menu.collapsed .sidebar-menu-inner {
+  position: fixed;
+}
+.sidebar-menu .main-menu a {
+  border: none;
+  transition: 0.3s;
+  border-radius: 12px;
+}
+.sidebar-menu .main-menu a:hover {
+  background: #888;
+}
+.sidebar-menu .main-menu a:hover i,
+.sidebar-menu .main-menu a:hover span {
+  color: #fff;
+}
+span.title,
+span.tooltip-blue,
+span#busuanzi_container_site_pv,
+span#busuanzi_value_site_pv,
+span#busuanzi_container_site_uv,
+span#busuanzi_value_site_uv {
+  font-family: "Candy", sans-serif !important;
+  color: #ddd;
+  font-size: 17px;
+}
+.sidebar-menu .main-menu li.has-sub > a:before,
+.sidebar-menu i {
+  color: #ddd;
+}
+@media screen and (min-width: 768px) {
+  .sidebar-menu.collapsed .main-menu > li:hover > ul {
+    border-radius: 0 12px 12px 0;
+  }
+}
+/* 左侧栏 ------------------------------------------------------------------结束 */
+
+/* 底栏 */
+footer.main-footer.sticky.footer-type-1 {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.night footer.main-footer.sticky.footer-type-1 {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+.footer-inner p {
+  text-align: center;
+  vertical-align: center;
+}
+
+@font-face {
+  font-family: "Candy"; /* 字体名自定义即可 */
+  src: url("https://cdn.jsdelivr.net/gh/hassanblog/navigation/fonts/Candy.ttf"); /* 字体文件路径 */
+  font-display: swap;
 }
 
 /* icon图标 */
 i::before {
   font-size: 17px;
-}
-/* 网址卡片标题图标 */
-.linecons-tag:before {
-  font-size: 24px;
 }
 /* 展开箭头 */
 .sidebar-menu .main-menu li.has-sub > a:before {
@@ -335,8 +350,8 @@ blockquote p a,
   border-bottom: none;
 }
 /* 左上角功能按钮 */
-body.night .user-info-navbar .user-info-menu>li>a,
-body.night .user-info-navbar .user-info-menu>li>a:hover {
+body.night .user-info-navbar .user-info-menu > li > a,
+body.night .user-info-navbar .user-info-menu > li > a:hover {
   border: none !important;
 }
 
