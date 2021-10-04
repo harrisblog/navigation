@@ -26,7 +26,13 @@ menu:
         config: 社交平台
   - name: 学习
     icon: iconfont icon-study
-    config: 学习
+    submenu:
+      - name: 大学常用
+        icon: iconfont icon-book
+        config: 大学常用
+      - name: 英语雅思
+        icon: iconfont icon-english
+        config: 英语雅思
   - name: 编程
     icon: iconfont icon-code
     config: 编程
