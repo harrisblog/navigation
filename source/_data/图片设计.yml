@@ -8,7 +8,7 @@
   description: 在线封面设计神器
 - name: Bgimage
   url: https://nav.rdonly.com/laboratory/bgimage/backimage.html
-  img: https://cdn.jsdelivr.net/gh/hassanblog/CDN/navi/alphabet/Letter_B.png
+  img: https://unpkg.zhimg.com/hassan-assets/navi/alphabet/Letter_B.png
   description: 一款操作简洁的封面制作网站
 - name: Brandmark 🔥
   url: https://app.brandmark.io/v3/

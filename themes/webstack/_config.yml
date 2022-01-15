@@ -1,10 +1,10 @@
-favicon: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/favicon.ico
-banner: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/webstack_banner_cn.png
+favicon: https://unpkg.zhimg.com/hassan-assets/navi/favicon.ico
+banner: https://unpkg.zhimg.com/hassan-assets/navi/webstack_banner_cn.png
 
 logo:
-  expanded: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logo@2x.png
-  collapsed: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logo-collapsed@2x.png
-  dark: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logo_dark@2x.png
+  expanded: https://unpkg.zhimg.com/hassan-assets/navi/logo@2x.png
+  collapsed: https://unpkg.zhimg.com/hassan-assets/navi/logo-collapsed@2x.png
+  dark: https://unpkg.zhimg.com/hassan-assets/navi/logo_dark@2x.png
 
 flag:
   icon: flag-cn
@@ -39,15 +39,15 @@ menu:
   - name: 前端
     icon: iconfont icon-cherry
     config: 前端
-  - name: 视图文素材
-    icon: iconfont icon-video
-    config: 视图文素材
   - name: 工具
     icon: fas fa-tools
     submenu:
-      - name: 图片
+      - name: 视图文素材
+        icon: iconfont icon-video
+        config: 视图文素材
+      - name: 图片设计
         icon: iconfont icon-photo
-        config: 图片
+        config: 图片设计
       - name: 其他
         icon: iconfont icon-about
         config: 其他
@@ -71,7 +71,7 @@ aboutPage:
     head: 关于站长
     name: Hassan Wong
     url: https://hassanwong.top
-    img: https://cdn.jsdelivr.net/gh/hassanblog/CDN@v20210405/navi/logos/myblog.png
+    img: https://unpkg.zhimg.com/hassan-assets/navi/logos/myblog.png
     description: 时不我待，只争朝夕
     html: ""
 
@@ -86,7 +86,7 @@ busuanzi:
 custom:
   head: # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2204525_az7e3ucr4x.css">
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2204525_jxth1d6fs6o.css">
   body: # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
     <div class="bg"></div>
     <script src="/js/custom.js"></script>
