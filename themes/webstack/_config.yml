@@ -1,10 +1,10 @@
-favicon: https://unpkg.zhimg.com/hassan-assets/navi/favicon.ico
-banner: https://unpkg.zhimg.com/hassan-assets/navi/webstack_banner_cn.png
+favicon: https://npm.elemecdn.com/hassan-assets/navi/favicon.ico
+banner: https://npm.elemecdn.com/hassan-assets/navi/webstack_banner_cn.png
 
 logo:
-  expanded: https://unpkg.zhimg.com/hassan-assets/navi/logo@2x.png
-  collapsed: https://unpkg.zhimg.com/hassan-assets/navi/logo-collapsed@2x.png
-  dark: https://unpkg.zhimg.com/hassan-assets/navi/logo_dark@2x.png
+  expanded: https://npm.elemecdn.com/hassan-assets/navi/logo@2x.png
+  collapsed: https://npm.elemecdn.com/hassan-assets/navi/logo-collapsed@2x.png
+  dark: https://npm.elemecdn.com/hassan-assets/navi/logo_dark@2x.png
 
 flag:
   icon: flag-cn
@@ -71,7 +71,7 @@ aboutPage:
     head: 关于站长
     name: Hassan Wong
     url: https://hassanwong.top
-    img: https://unpkg.zhimg.com/hassan-assets/navi/logos/myblog.png
+    img: https://npm.elemecdn.com/hassan-assets/navi/logos/myblog.png
     description: 时不我待，只争朝夕
     html: ""
 
@@ -90,29 +90,29 @@ custom:
   body: # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
     <div class="bg"></div>
     <script src="/js/custom.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/lozad.min.js"></script>
+    <script src="/js/lozad.min.js"></script>
 js:
-  header: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/header.js
-  footer: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/footer.js
-  jquery: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/jquery-1.11.1.min.js
-  bootstrap: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/bootstrap.min.js
-  TweenMax: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/TweenMax.min.js
-  resizeable: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/resizeable.min.js
-  joinable: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/joinable.js
-  xenonApi: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/xenon-api.min.js
-  xenonToggles: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/xenon-toggles.min.js
-  xenonCustom: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/xenon-custom.min.js
-  lozad: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/lozad.min.js
-  html5shiv: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/html5shiv.min.js
-  respond: https://cdn.jsdelivr.net/gh/hassanblog/navigation/js/respond.min.js
+  header: /js/header.js
+  footer: /js/footer.js
+  jquery: /js/jquery-1.11.1.min.js
+  bootstrap: /js/bootstrap.min.js
+  TweenMax: /js/TweenMax.min.js
+  resizeable: /js/resizeable.min.js
+  joinable: /js/joinable.js
+  xenonApi: /js/xenon-api.min.js
+  xenonToggles: /js/xenon-toggles.min.js
+  xenonCustom: /js/xenon-custom.min.js
+  lozad: /js/lozad.min.js
+  html5shiv: /js/html5shiv.min.js
+  respond: /js/respond.min.js
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
 css:
-  hclonely: https://cdn.jsdelivr.net/gh/hassanblog/navigation/css/hclonely.css
-  linecons: https://cdn.jsdelivr.net/gh/hassanblog/navigation/css/fonts/linecons/css/linecons.min.css
-  fontawesome: https://cdn.jsdelivr.net/gh/hassanblog/navigation/css/fonts/fontawesome/css/all.min.css
-  bootstrap: https://cdn.jsdelivr.net/gh/hassanblog/navigation/css/bootstrap.min.css
-  xenonCore: https://cdn.jsdelivr.net/gh/hassanblog/navigation/css/xenon-core.min.css
-  xenonComponents: https://cdn.jsdelivr.net/gh/hassanblog/navigation/css/xenon-components.min.css
-  xenonSkins: https://cdn.jsdelivr.net/gh/hassanblog/navigation/css/xenon-skins.min.css
-  nav: https://cdn.jsdelivr.net/gh/hassanblog/navigation/css/nav.min.css
+  hclonely: /css/hclonely.css
+  linecons: /css/fonts/linecons/css/linecons.min.css
+  fontawesome: /css/fonts/fontawesome/css/all.min.css
+  bootstrap: /css/bootstrap.min.css
+  xenonCore: /css/xenon-core.min.css
+  xenonComponents: /css/xenon-components.min.css
+  xenonSkins: /css/xenon-skins.min.css
+  nav: /css/nav.min.css

@@ -1,6 +1,6 @@
 - name: 博客友链
   url: https://hassanwong.top/link/
-  img: https://unpkg.zhimg.com/hassan-assets/navi/logos/myblog.png
+  img: https://npm.elemecdn.com/hassan-assets/navi/logos/myblog.png
   description: 这里都是我博客类型的友链
 - name: DAC导航
   url: https://nwuzmed.ga/

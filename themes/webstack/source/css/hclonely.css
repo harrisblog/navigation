@@ -145,7 +145,7 @@ input::-webkit-input-placeholder {
   display: inline-block;
   width: 25px;
   height: 15px;
-  background: url("https://unpkg.zhimg.com/hassan-assets/navi//off_on.png")
+  background: url("https://npm.elemecdn.com/hassan-assets/navi//off_on.png")
     no-repeat 0px 0px;
   cursor: pointer;
 }

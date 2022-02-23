@@ -1,22 +1,22 @@
 - name: Hassan's Blog 🔥
   url: https://hassanwong.top/
-  img: https://unpkg.zhimg.com/hassan-assets/navi/logos/myblog.png
+  img: https://npm.elemecdn.com/hassan-assets/navi/logos/myblog.png
   description: 我的个人博客，欢迎访问~
 - name: 本站搭建教程 🔥
   url: https://hassanwong.top/posts/61c6c2e8/
-  img: https://unpkg.zhimg.com/hassan-assets/navi/logos/myblog.png
+  img: https://npm.elemecdn.com/hassan-assets/navi/logos/myblog.png
   description: Hexo版WebStack导航网站搭建教程，欢迎留言~
 - name: 诗颂的文档
   url: https://doc.hassanwong.top/
-  img: https://unpkg.zhimg.com/hassan-assets/img/favicon.png
+  img: https://npm.elemecdn.com/hassan-assets/img/favicon.png
   description: 我的文档网站
 - name: 诗颂的八音盒
   url: https://mb.hassanwong.top/
-  img: https://unpkg.zhimg.com/hassan-assets/img/favicon.png
+  img: https://npm.elemecdn.com/hassan-assets/img/favicon.png
   description: 基于Vue框架使用网易云接口的音乐网站
 - name: 诗颂的画廊
   url: https://gal.hassanwong.top/
-  img: https://unpkg.zhimg.com/hassan-assets/img/favicon.png
+  img: https://npm.elemecdn.com/hassan-assets/img/favicon.png
   description: 3D相册网站
 - name: 阿里云
   url: https://account.aliyun.com/login/qr_login.html

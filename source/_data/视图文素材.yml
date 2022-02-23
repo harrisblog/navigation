@@ -4,7 +4,7 @@
   description: 国内功能很强大且图标内容很丰富的矢量图标库
 - name: 优品 PPT
   url: https://www.ypppt.com/
-  img: https://unpkg.zhimg.com/hassan-assets/navi/alphabet/Letter_Y.png
+  img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_Y.png
   description: 一个有情怀的免费PPT模板下载网站！
 - name: Wallpaper ABYSS
   url: https://wall.alphacoders.com
@@ -16,7 +16,7 @@
   description: 才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频
 - name: Font Awesome
   url: https://fontawesome.dashgame.com/
-  img: https://unpkg.zhimg.com/hassan-assets/navi/logos/Font_Awesome.png
+  img: https://npm.elemecdn.com/hassan-assets/navi/logos/Font_Awesome.png
   description: 一套绝佳的图标字体库和CSS框架
 - name: 鸠摩搜索 Jiumo Search
   url: https://www.jiumodiary.com/

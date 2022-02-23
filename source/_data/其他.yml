@@ -16,11 +16,11 @@
   description: 在线diff工具，用于比较文本找出差异
 - name: 错别字检测
   url: http://www.biezi.com/
-  img: https://unpkg.zhimg.com/hassan-assets/navi/alphabet/Letter_C.png
+  img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_C.png
   description: 为文章检查错别字
 - name: Mirror List - 镜像列表
   url: https://www.library.ac.cn/
-  img: https://unpkg.zhimg.com/hassan-assets/navi/alphabet/Letter_M.png
+  img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_M.png
   description: 访问海外镜像站点列表
 - name: Swiper 中文网
   url: https://www.swiper.com.cn/

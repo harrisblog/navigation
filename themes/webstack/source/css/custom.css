@@ -141,7 +141,7 @@ strong.search-engine-tit {
   display: inline-block;
   width: 25px;
   height: 15px;
-  background: url("https://unpkg.zhimg.com/hassan-assets/navi/off_on.png")
+  background: url("https://npm.elemecdn.com/hassan-assets/navi/off_on.png")
     no-repeat 0px 0px;
   cursor: pointer;
   vertical-align: middle;
@@ -227,12 +227,12 @@ div.bg {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("https://unpkg.zhimg.com/hassan-assets/navi/TortoiseFairyHouse.jpg")
+  background: url("https://npm.elemecdn.com/hassan-assets/navi/TortoiseFairyHouse.jpg")
     no-repeat center center;
   background-size: cover; /* 填充 */
 }
 .night div.bg {
-  background: url("https://unpkg.zhimg.com/hassan-assets/navi/TortoiseFairyHouse_dark.png")
+  background: url("https://npm.elemecdn.com/hassan-assets/navi/TortoiseFairyHouse_dark.png")
     no-repeat center center;
   background-size: cover; /* 填充 */
 }
@@ -257,7 +257,7 @@ body.page-body.boxed-container.vsc-initialized {
   margin-bottom: 20px;
 }
 .sidebar-menu-inner.ps-container {
-  background: url(https://unpkg.zhimg.com/hassan-assets/navi/LeftColumn.jpg) !important;
+  background: url(https://npm.elemecdn.com/hassan-assets/navi/LeftColumn.jpg) !important;
   background-attachment: fixed;
 }
 .sidebar-menu.collapsed .sidebar-menu-inner {
@@ -310,7 +310,7 @@ footer.main-footer.sticky.footer-type-1 {
 
 @font-face {
   font-family: "Candy"; /* 字体名自定义即可 */
-  src: url("https://cdn.jsdelivr.net/gh/hassanblog/navigation/fonts/Candy.ttf"); /* 字体文件路径 */
+  src: url("/fonts/Candy.ttf"); /* 字体文件路径 */
   font-display: swap;
 }
 
@@ -357,8 +357,7 @@ body.night .user-info-navbar .user-info-menu > li > a:hover {
 
 /* 鼠标图标 -----------------------------------------------------------------------开始 */
 body {
-  cursor: url(https://unpkg.zhimg.com/hassan-assets/img/cursor.png),
-    default !important;
+  cursor: url(https://npm.elemecdn.com/hassan-assets/img/cursor.png), default !important;
 }
 
 /*i标签，a标签，按钮，头部的导航栏，网址卡片，底栏链接*/
@@ -367,7 +366,7 @@ a:hover,
 button:hover,
 #nav .site-page:hover,
 .xe-widget.xe-conversations.box2.label-info {
-  cursor: url(https://unpkg.zhimg.com/hassan-assets/img/cursor_puppy.png),
+  cursor: url(https://npm.elemecdn.com/hassan-assets/img/cursor_puppy.png),
     pointer !important;
 }
 
@@ -375,7 +374,7 @@ button:hover,
 #footer-wrap a:hover,
 #pagination .page-number:hover,
 input#txt {
-  cursor: url(https://unpkg.zhimg.com/hassan-assets/img/cursor_stitch.png),
+  cursor: url(https://npm.elemecdn.com/hassan-assets/img/cursor_stitch.png),
     pointer !important;
 }
 /* 鼠标图标 -----------------------------------------------------------------------结束 */
