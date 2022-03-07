@@ -1,6 +1,6 @@
 - name: 音乐搜索器
   url: http://www.musictool.top
-  img: http://www.musictool.top/favicon.ico
+  img: http://www.musictool.top/static/img/apple-touch-icon.png
   description: 免费音乐下载
 - name: 5sing 中国原创音乐基地
   url: http://5sing.kugou.com/index.html
