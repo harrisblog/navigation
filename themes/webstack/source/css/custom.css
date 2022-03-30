@@ -310,7 +310,7 @@ footer.main-footer.sticky.footer-type-1 {
 
 @font-face {
   font-family: "Candy"; /* 字体名自定义即可 */
-  src: url("/fonts/Candy.ttf"); /* 字体文件路径 */
+  src: url("https://npm.elemecdn.com/hassan-assets/fonts/Candy.ttf"); /* 字体文件路径 */
   font-display: swap;
 }
 

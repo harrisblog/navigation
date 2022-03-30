@@ -6,6 +6,18 @@
   url: https://codepen.io/
   img: https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png
   description: 前端页面设计网站，也有很多UI大佬的作品
+- name: unDraw
+  url: https://undraw.co/illustrations
+  img: https://undraw.co/favicon.ico
+  description: 可自定义主题色的插画网站
+- name: OUCH
+  url: https://igoutu.cn/illustrations/style--pale
+  img: https://maxst.icons8.com/vue-static/ouch/seo/favicon.png
+  description: 可选择画风的插画网站
+- name: /@vueuse/motion
+  url: https://motion.vueuse.org/
+  img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_V.png
+  description: Vue动画，2.x、3.x版本都支持
 - name: scrimba - 斯克林巴
   url: https://scrimba.com/
   img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_S.png
