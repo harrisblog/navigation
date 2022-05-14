@@ -397,7 +397,7 @@ body.night .search-engine-list li {
 }
 
 body.night .go-up a {
-  background-color: rgb(88 88 88) !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
   padding: 15px 20px !important;
   border-radius: 50% !important;
 }
