@@ -6,6 +6,10 @@
   url: https://www.aconvert.com/
   img: https://www.aconvert.com/favicon.ico
   description: 格式转换网站
+- name: Unlock PDF
+  url: https://www.ilovepdf.com/unlock_pdf
+  img: https://www.ilovepdf.com/img/ilovepdf.svg
+  description: PDF解密，实测超级好用
 - name: 问卷星
   url: https://www.wjx.cn/
   img: https://image.wjx.cn/images/wlogo.png
@@ -18,10 +22,6 @@
   url: http://www.biezi.com/
   img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_C.png
   description: 为文章检查错别字
-- name: Mirror List - 镜像列表
-  url: https://www.library.ac.cn/
-  img: https://api.btstu.cn/getfav/api.php?url=https://www.library.ac.cn/
-  description: 访问海外镜像站点列表
 - name: Swiper 中文网
   url: https://www.swiper.com.cn/
   img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_S.png

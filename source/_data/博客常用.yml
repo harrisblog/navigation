@@ -21,19 +21,23 @@
 - name: 阿里云
   url: https://account.aliyun.com/login/qr_login.html
   img: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
-  description: 本站域名管理
+  description: 博客域名管理
 - name: Vercel - Dashboard
   url: https://vercel.com/hassanblog
   img: https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/57x57.png
-  description: 本站代码部署
-- name: 腾讯云 - 控制台
-  url: https://console.cloud.tencent.com/
-  img: https://cloud.tencent.com/favicon.ico
-  description: 目前用于Twikoo评论系统后台、每日签到
+  description: 博客和Twikoo评论代码部署
 - name: LeanCloud
   url: https://console.leancloud.app/login
   img: https://console.leancloud.app/favicon.ico
-  description: 本站友链朋友圈、哔哔后台
+  description: 博客友链朋友圈、哔哔后台
+- name: Algolia
+  url: https://www.algolia.com/apps/FKHLEMHNR9/dashboard
+  img: https://www.algolia.com/ds-assets/favicon/favicon.ico
+  description: 博客搜索功能
+- name: MongoDB
+  url: https://cloud.mongodb.com/v2/630254bb0ba44279ed3c995f#clusters
+  img: https://cloud.mongodb.com/static/images/favicon.ico
+  description: Twikoo评论区数据存储
 - name: 百度搜索资源平台
   url: https://ziyuan.baidu.com/linksubmit/index?site=http://hassanwong.top/
   img: https://ziyuan.baidu.com/favicon.ico
@@ -54,3 +58,7 @@
   url: https://dash.cloudflare.com/f2f657ef88142b794b30a3e5754d73e3
   img: https://dash.cloudflare.com/favicon.ico
   description: 帮助站点抵御大多数网络攻击，确保长期在线，提升性能、访问速度
+- name: smms图床
+  url: https://sm.ms/home/
+  img: https://sm.ms/apple-touch-icon.png
+  description: 有5Gb免费额度的图床，目前已用做Twikoo评论区图床
