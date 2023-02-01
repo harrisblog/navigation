@@ -1,1 +1,469 @@
-*{font-family:HarmonyOS_Regular,sans-serif;font-weight:400;letter-spacing:1px}nav.navbar.user-info-navbar{background:rgba(255,255,255)!important;height:66px}.night nav.navbar.user-info-navbar{background:rgba(0,0,0)!important}.user-info-navbar .user-info-menu>li{border-right:0;height:66px}.user-info-navbar .user-info-menu>li>a{border-bottom:0;top:-4px}.user-info-navbar .user-info-menu>li a[data-toggle=sidebar]{padding-left:20px}.night .user-info-navbar .user-info-menu>li>a,.user-info-navbar .user-info-menu>li>a{height:66px!important}.navbar{position:fixed;z-index:1}a.github-corner{position:fixed;right:0}.navbar.horizontal-menu.navbar-fixed-top{background:rgba(255,255,255)!important;height:66px}img.hidden-xs{position:absolute;left:20px;top:13px}.night a.github-corner svg{fill:#fff!important;color:#151513!important}input#txt{background:rgba(255,255,255,.7)!important;border-radius:50px;border:none}input#txt::placeholder{font-size:18px;color:#666}.night input#txt::placeholder{font-size:18px;color:#888}.night input#txt{background:rgba(0,0,0,.7)!important}.sousuo{padding:88px 0}div.search{width:96%;transition:all .3s cubic-bezier(0,.3,.5,1)}div.search:hover{width:100%;transition:all .3s cubic-bezier(0,.3,.5,1)}.search-input{font-size:18px!important;color:#111!important;padding-left:50px}.night .search-input{color:#fff!important}.search-icon{left:5px}.search-engine{background:rgba(255,255,255,.7)!important}.night .search-engine{background:rgba(0,0,0,.7)!important}ul.search-engine-list.search-engine-list_zmki_ul{list-style:none;padding-left:26px}.search-engine-list li{background:0 0;color:#222;font-size:17px;transition:.3s}.night .search-engine-list li{color:#ddd;background:0 0!important;transition:.3s}.search-engine-list li:hover{background:#fff;border-radius:30px}.night .search-engine-list li:hover{background:#666!important;border-radius:30px}.search-engine-tool{font-size:17px;color:#000}.night .search-engine-tool{color:#fff}strong.search-engine-tit{font-size:18px;color:#000}.night strong.search-engine-tit{color:#fff}.search-engine-tool>span{float:right;display:inline-block;width:25px;height:15px;background:url(https://npm.elemecdn.com/hassan-assets/navi/off_on.png) no-repeat 0 0;cursor:pointer;vertical-align:middle}.search-engine{width:58%!important}.search-engine-list::after{height:60px!important;width:100px!important;top:-60px!important}.fa-search{color:#888;transition:.3s}.fa-search:hover{color:#111}.night .fa-search:hover{color:#ddd}.fa-search:before{font-size:24px}.xe-widget.xe-conversations .overflowClip_1,.xe-widget.xe-conversations .overflowClip_2,.xe-widget.xe-conversations .xe-comment{width:calc(100% - 44px)}.xe-widget.xe-conversations{border-radius:12px;border:1px solid #cdd7f1;background:rgba(255,255,255,.7)!important}.xe-widget.xe-conversations .overflowClip_1,.xe-widget.xe-conversations .overflowClip_2,.xe-widget.xe-conversations img{transition:.3s}.xe-widget.xe-conversations:hover img{transform:scale(0)}.xe-widget.xe-conversations:hover .overflowClip_1,.xe-widget.xe-conversations:hover .overflowClip_2{transform:translateX(-36px);width:calc(100% - 8px)}.night .xe-widget.xe-conversations{border-color:#4e525c;background:rgba(0,0,0,.7)!important}body.night .box2:hover{background:rgba(0,0,0,.7)!important}h4.text-gray{font-size:24px;color:#fff;text-shadow:-1px 0 #666,0 1px #666,1px 0 #666,0 -1px #666;margin:20px 0 0 0;text-align:center}.col-md-12 h4.text-gray{color:#666;text-align:left}.night .col-md-12 h4.text-gray{color:#fff}strong{font-size:18px}p.overflowClip_2{font-size:16px;color:grey}body.night .xe-comment p{color:#aaa!important}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding:0 10px}.linecons-tag:before{font-size:24px}body.night .xe-comment a{color:#fff}div.bg{position:fixed;top:0;width:100%;height:100%;background:url(https://npm.elemecdn.com/hassan-assets/navi/TortoiseFairyHouse.jpg) no-repeat center center;background-size:cover}.night div.bg{background:url(https://npm.elemecdn.com/hassan-assets/navi/TortoiseFairyHouse_dark.png) no-repeat center center;background-size:cover}body.page-body.boxed-container.vsc-initialized{overflow:hidden}.boxed-container div .main-content{background:rgba(255,255,255,.7)!important}.night.boxed-container div .main-content{background:rgba(0,0,0,.7)!important}.sidebar-menu .main-menu{padding-left:16px;padding-right:16px;margin-top:20px;margin-bottom:20px}.sidebar-menu-inner.ps-container{background:url(https://npm.elemecdn.com/hassan-assets/navi/LeftColumn.jpg)!important;background-attachment:fixed}.sidebar-menu.collapsed .sidebar-menu-inner{position:fixed}.sidebar-menu .main-menu a{border:none;transition:.3s;border-radius:12px}.sidebar-menu .main-menu a:hover{background:#888}.sidebar-menu .main-menu a:hover i,.sidebar-menu .main-menu a:hover span{color:#fff}span#busuanzi_container_site_pv,span#busuanzi_container_site_uv,span#busuanzi_value_site_pv,span#busuanzi_value_site_uv,span.title,span.tooltip-blue{color:#ddd;font-size:17px}.sidebar-menu .main-menu li.has-sub>a:before,.sidebar-menu i{color:#ddd}@media screen and (min-width:768px){.sidebar-menu.collapsed .main-menu>li:hover>ul{border-radius:0 12px 12px 0}}footer.main-footer.sticky.footer-type-1{background:rgba(255,255,255,.7)!important}.night footer.main-footer.sticky.footer-type-1{background:rgba(0,0,0,.7)!important}.footer-inner p{text-align:center;vertical-align:center}i::before{font-size:17px}.sidebar-menu .main-menu li.has-sub>a:before{font-size:17px}.night div.go-up a i{color:#fff}.footer-inner p{font-size:16px;color:#666}.night .footer-inner p{color:#bbb}.footer-inner strong,blockquote p a{color:#6ac6bc}.night .footer-inner strong,.night blockquote p a{color:#62cec4}.sidebar-menu .logo-env{padding:10px 23px 10px 13px;border-bottom:none}body.night .user-info-navbar .user-info-menu>li>a,body.night .user-info-navbar .user-info-menu>li>a:hover{border:none!important}body{cursor:url(https://npm.elemecdn.com/hassan-assets/img/cursor.png),default!important}#nav .site-page:hover,.xe-widget.xe-conversations.box2.label-info,a:hover,button:hover,i:hover{cursor:url(https://npm.elemecdn.com/hassan-assets/img/cursor_puppy.png),pointer!important}#footer-wrap a:hover,#pagination .page-number:hover,input#txt{cursor:url(https://npm.elemecdn.com/hassan-assets/img/cursor_stitch.png),pointer!important}::-webkit-scrollbar{width:12px;height:8px}::-webkit-scrollbar-track{background-color:#d0f2ee}::-webkit-scrollbar-thumb{background-color:#222;background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);border-radius:5em}::-webkit-scrollbar-corner{background-color:transparent}::-moz-selection{color:#fff;background-color:#1f1f1f}
+/* 全局字体 */
+* {
+  font-family: "HarmonyOS_Regular", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+/* 导航栏 */
+nav.navbar.user-info-navbar {
+  background: rgba(255, 255, 255) !important;
+  height: 66px;
+}
+.night nav.navbar.user-info-navbar {
+  background: rgba(0, 0, 0) !important;
+}
+.user-info-navbar .user-info-menu > li {
+  border-right: 0;
+  height: 66px;
+}
+.user-info-navbar .user-info-menu > li > a {
+  border-bottom: 0px;
+  top: -4px;
+}
+.user-info-navbar .user-info-menu > li a[data-toggle="sidebar"] {
+  padding-left: 20px;
+}
+.night .user-info-navbar .user-info-menu > li > a,
+.user-info-navbar .user-info-menu > li > a {
+  height: 66px !important;
+}
+.navbar {
+  position: fixed;
+  z-index: 1;
+}
+a.github-corner {
+  position: fixed;
+  right: 0;
+}
+.navbar.horizontal-menu.navbar-fixed-top {
+  background: rgba(255, 255, 255) !important;
+  height: 66px;
+}
+img.hidden-xs {
+  position: absolute;
+  left: 20px;
+  top: 13px;
+}
+
+/* GitHub 右上角 猫 */
+.night a.github-corner svg {
+  fill: #fff !important;
+  color: #151513 !important;
+}
+
+/* 搜索框 ------------------------------------------------------------ 开始 */
+input#txt {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 50px;
+  border: none;
+}
+input#txt::placeholder {
+  font-size: 18px;
+  color: #666;
+}
+.night input#txt::placeholder {
+  font-size: 18px;
+  color: #888;
+}
+.night input#txt {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+.sousuo {
+  padding: 88px 0;
+}
+div.search {
+  width: 96%;
+  /* 搜索框缩短 - 先快后慢 */
+  transition: all 0.3s cubic-bezier(0, 0.3, 0.5, 1);
+}
+div.search:hover {
+  width: 100%;
+  /* 搜索框拉长 - 先快后慢 */
+  transition: all 0.3s cubic-bezier(0, 0.3, 0.5, 1);
+}
+.search-input {
+  font-size: 18px !important;
+  color: #111 !important;
+  padding-left: 50px;
+}
+.night .search-input {
+  color: #fff !important;
+}
+.search-icon {
+  left: 5px;
+}
+.search-engine {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.night .search-engine {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+ul.search-engine-list.search-engine-list_zmki_ul {
+  list-style: none;
+  padding-left: 26px;
+}
+.search-engine-list li {
+  background: transparent;
+  color: #222;
+  font-size: 17px;
+  transition: 0.3s;
+}
+.night .search-engine-list li {
+  color: #ddd;
+  background: transparent !important;
+  transition: 0.3s;
+}
+.search-engine-list li:hover {
+  background: #fff;
+  border-radius: 30px;
+}
+.night .search-engine-list li:hover {
+  background: #666 !important;
+  border-radius: 30px;
+}
+.search-engine-tool {
+  font-size: 17px;
+  color: black;
+}
+.night .search-engine-tool {
+  color: white;
+}
+strong.search-engine-tit {
+  font-size: 18px;
+  color: black;
+}
+.night strong.search-engine-tit {
+  color: white;
+}
+.search-engine-tool > span {
+  float: right;
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  background: url("https://npm.elemecdn.com/hassan-assets/navi/off_on.png")
+    no-repeat 0px 0px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.search-engine {
+  width: 58% !important;
+}
+.search-engine-list::after {
+  height: 60px !important;
+  width: 100px !important;
+  top: -60px !important;
+}
+/* 搜索图标 */
+.fa-search {
+  color: #888;
+  transition: .3s;
+}
+.fa-search:hover {
+  color: #111;
+}
+.night .fa-search:hover {
+  color: #ddd;
+}
+.fa-search:before {
+  font-size: 24px;
+}
+/* 搜索框 ------------------------------------------------------------ 结束 */
+
+/* 网址卡片 ---------------------------------------------------------- 开始*/
+.xe-widget.xe-conversations .xe-comment,
+.xe-widget.xe-conversations .overflowClip_1,
+.xe-widget.xe-conversations .overflowClip_2 {
+  width: calc(100% - 44px);
+}
+.xe-widget.xe-conversations {
+  border-radius: 12px;
+  border: 1px solid #cdd7f1;
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.xe-widget.xe-conversations img,
+.xe-widget.xe-conversations .overflowClip_1,
+.xe-widget.xe-conversations .overflowClip_2 {
+  transition: .3s;
+}
+.xe-widget.xe-conversations:hover img {
+  transform: scale(0);
+}
+.xe-widget.xe-conversations:hover .overflowClip_1,
+.xe-widget.xe-conversations:hover .overflowClip_2 {
+  transform: translateX(-36px);
+  width: calc(100% - 8px);
+}
+.night .xe-widget.xe-conversations {
+  border-color: #4e525c;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+body.night .box2:hover {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+/* 分类标题 */
+h4.text-gray {
+  font-size: 24px;
+  color: #fff;
+  text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+.col-md-12 h4.text-gray {
+  color: #666;
+  text-align: left;
+}
+.night .col-md-12 h4.text-gray {
+  color: #fff;
+}
+strong {
+  font-size: 18px;
+}
+p.overflowClip_2 {
+  font-size: 16px;
+  color: #808080;
+}
+body.night .xe-comment p {
+  color: #aaa !important;
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  padding: 0 10px;
+}
+/* 标题图标 */
+.linecons-tag:before {
+  font-size: 24px;
+}
+/* 标题 */
+body.night .xe-comment a {
+  color: white;
+}
+/* 网址卡片 ---------------------------------------------------------- 结束*/
+
+/* 网站背景 */
+div.bg {
+  /* position一定要加fixed，可以使图片固定在浏览器，bg-attachment没这好使 */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://npm.elemecdn.com/hassan-assets/navi/TortoiseFairyHouse.jpg")
+    no-repeat center center;
+  background-size: cover; /* 填充 */
+}
+.night div.bg {
+  background: url("https://npm.elemecdn.com/hassan-assets/navi/TortoiseFairyHouse_dark.png")
+    no-repeat center center;
+  background-size: cover; /* 填充 */
+}
+
+/* 关于我页面 */
+body.page-body.boxed-container.vsc-initialized {
+  /* 禁止滚动 */
+  overflow: hidden;
+}
+.boxed-container div .main-content {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.night.boxed-container div .main-content {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* 左侧栏 ------------------------------------------------------------------开始 */
+.sidebar-menu .main-menu {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sidebar-menu-inner.ps-container {
+  background: url(https://npm.elemecdn.com/hassan-assets/navi/LeftColumn.jpg) !important;
+  background-attachment: fixed;
+}
+.sidebar-menu.collapsed .sidebar-menu-inner {
+  position: fixed;
+}
+.sidebar-menu .main-menu a {
+  border: none;
+  transition: 0.3s;
+  border-radius: 12px;
+}
+.sidebar-menu .main-menu a:hover {
+  background: #888;
+}
+.sidebar-menu .main-menu a:hover i,
+.sidebar-menu .main-menu a:hover span {
+  color: #fff;
+}
+span.title,
+span.tooltip-blue,
+span#busuanzi_container_site_pv,
+span#busuanzi_value_site_pv,
+span#busuanzi_container_site_uv,
+span#busuanzi_value_site_uv {
+  color: #ddd;
+  font-size: 17px;
+}
+.sidebar-menu .main-menu li.has-sub > a:before,
+.sidebar-menu i {
+  color: #ddd;
+}
+@media screen and (min-width: 768px) {
+  .sidebar-menu.collapsed .main-menu > li:hover > ul {
+    border-radius: 0 12px 12px 0;
+  }
+}
+/* 左侧栏 ------------------------------------------------------------------结束 */
+
+/* 底栏 */
+footer.main-footer.sticky.footer-type-1 {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.night footer.main-footer.sticky.footer-type-1 {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+.footer-inner p {
+  text-align: center;
+  vertical-align: center;
+}
+
+/* icon图标 */
+i::before {
+  font-size: 17px;
+}
+/* 展开箭头 */
+.sidebar-menu .main-menu li.has-sub > a:before {
+  font-size: 17px;
+}
+/* 右下角回到首页图标 */
+.night div.go-up a i {
+  color: #fff;
+}
+
+/* 底栏 */
+.footer-inner p {
+  font-size: 16px;
+  color: #666;
+}
+.night .footer-inner p {
+  color: #bbb;
+}
+blockquote p a,
+.footer-inner strong {
+  color: #6ac6bc;
+}
+.night blockquote p a,
+.night .footer-inner strong {
+  color: #62cec4;
+}
+
+/* 左上角站点logo */
+.sidebar-menu .logo-env {
+  padding: 10px 23px 10px 13px;
+  border-bottom: none;
+}
+/* 左上角功能按钮 */
+body.night .user-info-navbar .user-info-menu > li > a,
+body.night .user-info-navbar .user-info-menu > li > a:hover {
+  border: none !important;
+}
+
+/* 鼠标图标 -----------------------------------------------------------------------开始 */
+body {
+  cursor: url(https://npm.elemecdn.com/hassan-assets/img/cursor.png), default !important;
+}
+
+/*i标签，a标签，按钮，头部的导航栏，网址卡片，底栏链接*/
+i:hover,
+a:hover,
+button:hover,
+#nav .site-page:hover,
+.xe-widget.xe-conversations.box2.label-info {
+  cursor: url(https://npm.elemecdn.com/hassan-assets/img/cursor_puppy.png),
+    pointer !important;
+}
+
+/*页脚a标签，分页器，搜索框*/
+#footer-wrap a:hover,
+#pagination .page-number:hover,
+input#txt {
+  cursor: url(https://npm.elemecdn.com/hassan-assets/img/cursor_stitch.png),
+    pointer !important;
+}
+/* 鼠标图标 -----------------------------------------------------------------------结束 */
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #d0f2ee;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #222;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 5em;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #1f1f1f;
+}
