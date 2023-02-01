@@ -1,21 +1,21 @@
-- name: Hassan's Blog 🔥
-  url: https://hassanwong.top/
+- name: Harris's Blog 🔥
+  url: https://blog.harriswong.top/
   img: https://npm.elemecdn.com/hassan-assets/navi/logos/myblog.png
   description: 我的个人博客，欢迎访问~
 - name: 本站搭建教程 🔥
-  url: https://hassanwong.top/posts/61c6c2e8/
+  url: https://blog.harriswong.top/posts/61c6c2e8/
   img: https://npm.elemecdn.com/hassan-assets/navi/logos/myblog.png
   description: Hexo版WebStack导航网站搭建教程，欢迎留言~
 - name: 诗颂的文档
-  url: https://doc.hassanwong.top/
+  url: https://doc.harriswong.top/
   img: https://npm.elemecdn.com/hassan-assets/img/favicon.png
   description: 我的文档网站
 - name: 诗颂的八音盒
-  url: https://mb.hassanwong.top/
+  url: https://mb.harriswong.top/
   img: https://npm.elemecdn.com/hassan-assets/img/favicon.png
   description: 基于Vue框架使用网易云接口的音乐网站
 - name: 诗颂的画廊
-  url: https://gal.hassanwong.top/
+  url: https://gal.harriswong.top/
   img: https://npm.elemecdn.com/hassan-assets/img/favicon.png
   description: 3D相册网站
 - name: 阿里云
@@ -39,7 +39,7 @@
   img: https://cloud.mongodb.com/static/images/favicon.ico
   description: Twikoo评论区数据存储
 - name: 百度搜索资源平台
-  url: https://ziyuan.baidu.com/linksubmit/index?site=http://hassanwong.top/
+  url: https://ziyuan.baidu.com/linksubmit/index?site=http://harriswong.top/
   img: https://ziyuan.baidu.com/favicon.ico
   description: 本站收录平台
 - name: 百度统计

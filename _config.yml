@@ -4,16 +4,16 @@
 
 # Site
 title: 诗颂的网址导航
-subtitle: Hassan Wong
-description: 网站包含 Hassan Wong 本人常用网站，同时提供多站点导航功能，若是喜欢赶紧收藏吧
-keywords: 网址收藏,常用网址,网址导航,网址大全,Hassan's Blog,常用网站,私人导航,诗颂,HassanWong
-author: Hassan Wong
+subtitle: Harris Wong
+description: 网站包含 Harris Wong 本人常用网站，同时提供多站点导航功能，若是喜欢赶紧收藏吧
+keywords: 网址收藏,常用网址,网址导航,网址大全,Harris's Blog,常用网站,私人导航,诗颂,HarrisWong
+author: Harris Wong
 language: en
 timezone: ""
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://navi.hassanwong.top
+url: https://navi.harriswong.top
 root: /
 permalink: :title.html
 permalink_defaults:
@@ -111,6 +111,6 @@ deploy:
 # 百度收录
 baidu_url_submit:
   count: 100 # 提交最新的一个链接
-  host: navi.hassanwong.top # 在百度站长平台中注册的域名
+  host: navi.harriswong.top # 在百度站长平台中注册的域名
   token: DWR6kIWxQCP9u9SW # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里

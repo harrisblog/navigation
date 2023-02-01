@@ -66,11 +66,11 @@ about:
 aboutPage:
   website:
     head: 关于本站
-    html: '<blockquote><p>本站是由<a href="https://github.com/hassanblog">Hassan Wong</a>基于<a href="https://hexo.io/">Hexo框架</a>主题为<a href="https://github.com/HCLonely/hexo-theme-webstack">WebStack</a>所搭建的。</p></blockquote>'
+    html: '<blockquote><p>本站是由<a href="https://github.com/hassanblog">Harris Wong</a>基于<a href="https://hexo.io/">Hexo框架</a>主题为<a href="https://github.com/HCLonely/hexo-theme-webstack">WebStack</a>所搭建的。</p></blockquote>'
   webmaster:
     head: 关于站长
-    name: Hassan Wong
-    url: https://hassanwong.top
+    name: Harris Wong
+    url: https://blog.harriswong.top
     img: https://npm.elemecdn.com/hassan-assets/navi/logos/myblog.png
     description: 时不我待，只争朝夕
     html: ""
