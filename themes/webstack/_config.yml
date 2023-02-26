@@ -1,10 +1,10 @@
-favicon: https://npm.elemecdn.com/hassan-assets/navi/favicon.ico
-banner: https://npm.elemecdn.com/hassan-assets/navi/webstack_banner_cn.png
+favicon: https://cdn.jsdelivr.net/npm/hassan-assets/navi/favicon.ico
+banner: https://cdn.jsdelivr.net/npm/hassan-assets/navi/webstack_banner_cn.png
 
 logo:
-  expanded: https://npm.elemecdn.com/hassan-assets/navi/logo@2x.png
-  collapsed: https://npm.elemecdn.com/hassan-assets/navi/logo-collapsed@2x.png
-  dark: https://npm.elemecdn.com/hassan-assets/navi/logo_dark@2x.png
+  expanded: https://cdn.jsdelivr.net/npm/hassan-assets/navi/logo@2x.png
+  collapsed: https://cdn.jsdelivr.net/npm/hassan-assets/navi/logo-collapsed@2x.png
+  dark: https://cdn.jsdelivr.net/npm/hassan-assets/navi/logo_dark@2x.png
 
 flag:
   icon: flag-cn
@@ -48,9 +48,9 @@ menu:
       - name: 图片设计
         icon: iconfont icon-photo
         config: 图片设计
-      - name: 其他
+      - name: 其它
         icon: iconfont icon-about
-        config: 其他
+        config: 其它
   - name: 音乐
     icon: iconfont icon-music
     config: 音乐
@@ -71,7 +71,7 @@ aboutPage:
     head: 关于站长
     name: Harris Wong
     url: https://blog.harriswong.top
-    img: https://npm.elemecdn.com/hassan-assets/navi/logos/myblog.png
+    img: https://cdn.jsdelivr.net/npm/hassan-assets/navi/logos/myblog.png
     description: 时不我待，只争朝夕
     html: ""
 

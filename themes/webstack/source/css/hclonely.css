@@ -145,7 +145,7 @@ input::-webkit-input-placeholder {
   display: inline-block;
   width: 25px;
   height: 15px;
-  background: url("https://npm.elemecdn.com/hassan-assets/navi//off_on.png")
+  background: url("https://cdn.jsdelivr.net/npm/hassan-assets/navi//off_on.png")
     no-repeat 0px 0px;
   cursor: pointer;
 }
@@ -263,9 +263,6 @@ body.night .xe-widget.xe-conversations {
   background: #2c2e2f;
 }
 
-body.night .box2 {
-  border: 1px solid #3f4142;
-}
 
 body.night .xe-comment a {
   color: #d8d8d8;

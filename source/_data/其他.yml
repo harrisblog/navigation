@@ -20,11 +20,11 @@
   description: 在线diff工具，用于比较文本找出差异
 - name: 错别字检测
   url: http://www.biezi.com/
-  img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_C.png
+  img: https://cdn.jsdelivr.net/npm/hassan-assets/navi/alphabet/Letter_C.png
   description: 为文章检查错别字
 - name: Swiper 中文网
   url: https://www.swiper.com.cn/
-  img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_S.png
+  img: https://cdn.jsdelivr.net/npm/hassan-assets/navi/alphabet/Letter_S.png
   description: 目前应用较广泛的移动端网页触摸内容滑动js插件
 - name: HTML👉JADE/PUG
   url: http://html2jade.org/
@@ -36,5 +36,5 @@
   description: 免费制作二维码
 - name: 特殊英文字体生成器 - 九蛙工具箱
   url: https://www.jiuwa.net/ywzm/
-  img: https://npm.elemecdn.com/hassan-assets/navi/alphabet/Letter_J.png
+  img: https://cdn.jsdelivr.net/npm/hassan-assets/navi/alphabet/Letter_J.png
   description: 可用在一些社交平台的昵称和简介里

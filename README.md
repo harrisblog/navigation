@@ -74,7 +74,7 @@ logo:
 
 > 语言标识
 
-- icon: 语言图标，默认仅有`flag-cn`和`flag-us`, 其他图标自行寻找存放于`主题目录/source/images/flags/`
+- icon: 语言图标，默认仅有`flag-cn`和`flag-us`, 其它图标自行寻找存放于`主题目录/source/images/flags/`
 - name: 语言名称
 
 示例：
@@ -131,7 +131,7 @@ menu:
   - name: 常用工具
     icon: far fa-star
     config: hotTools
-  - name: 其他工具
+  - name: 其它工具
     icon: fas fa-tools
     submenu:
       - name: 开发工具
@@ -190,7 +190,7 @@ type: "about"
   - url: 链接
   - img: 头像
   - description: 描述
-  - html: 其他内容，支持`html`语法
+  - html: 其它内容，支持`html`语法
 
 示例：
 

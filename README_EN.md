@@ -46,6 +46,7 @@ Configure it by editing `webstack.yml`.
 > Website icon.
 
 Examples:
+
 ```yml
 favicon: /favicon.ico
 ```
@@ -55,6 +56,7 @@ favicon: /favicon.ico
 > [Optional] Banner when sharing website to twitter and facebook.
 
 Examples:
+
 ```yml
 banner: /images/webstack_banner_cn.png
 ```
@@ -68,6 +70,7 @@ banner: /images/webstack_banner_cn.png
 - `dark`: The logo in the upper left corner when the top bar is dark, only the `about` page takes effect.
 
 Examples:
+
 ```yml
 logo:
   expanded: /images/logo@2x.png
@@ -83,6 +86,7 @@ logo:
 - name: Language name
 
 Examples:
+
 ```yml
 flag:
   icon: flag-cn
@@ -94,6 +98,7 @@ flag:
 > Whether to show search box
 
 Examples:
+
 ```yml
 search: true
 ```
@@ -103,6 +108,7 @@ search: true
 > [Github corner](http://tholman.com/github-corners/) in the upper right corner.
 
 Examples:
+
 ```yml
 githubCorner: '<a href="https://github.com/HCLonely/hexo-theme-webstack" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>'
 ```
@@ -112,6 +118,7 @@ githubCorner: '<a href="https://github.com/HCLonely/hexo-theme-webstack" class="
 > Year of site establishment, shown at the bottom of the page.
 
 Examples:
+
 ```yml
 since: 2020
 ```
@@ -126,12 +133,13 @@ since: 2020
 - submenu: If there is a submenu, `config` is not required, this option contains `name`, `icon`, `config` options.
 
 Examples:
+
 ```yml
 menu:
   - name: 常用工具
     icon: far fa-star
     config: hotTools
-  - name: 其他工具
+  - name: 其它工具
     icon: fas fa-tools
     submenu:
       - name: 开发工具
@@ -151,6 +159,7 @@ menu:
 - icon: Icon.
 
 Examples:
+
 ```yml
 about:
   url: /about/
@@ -174,7 +183,7 @@ hexo new page about
 ---
 title: about
 date: 2020-06-04 18:11:54
-type: 'about'
+type: "about"
 ---
 ```
 
@@ -192,6 +201,7 @@ type: 'about'
   - html: Content, support `html` syntax.
 
 Examples:
+
 ```yml
 aboutPage:
   website:
@@ -216,6 +226,7 @@ aboutPage:
 - uv: The number of visitors displayed, `$uv` will be replaced by the number of visitors.
 
 Examples:
+
 ```yml
 busuanzi:
   enable: true
@@ -232,12 +243,15 @@ busuanzi:
 - body: Content inserted before the `</body>` tag.
 
 Examples:
+
 ```yml
 custom:
-  head: |- # The following content is inserted into the <head></head> tag, you can set up multiple lines, pay attention to at least four spaces at the beginning of each line.
+  head:
+    |- # The following content is inserted into the <head></head> tag, you can set up multiple lines, pay attention to at least four spaces at the beginning of each line.
     <link rel="stylesheet" type="text/css" href="custom.css">
     <script src="custom.js"></script>
-  body: |- # Insert the following content before the </body> tag, you can set multiple lines, pay attention to at least four spaces at the beginning of each line.
+  body:
+    |- # Insert the following content before the </body> tag, you can set multiple lines, pay attention to at least four spaces at the beginning of each line.
     <div>custom text</div>
     <script src="custom.js"></script>
 ```
@@ -254,6 +268,7 @@ custom:
 - description: Website description.
 
 Examples:
+
 ```yml
 - name: HCLonely Blog
   url: https://blog.hclonely.com/
@@ -266,15 +281,18 @@ Examples:
 The content of `config` set in `menu` and `submenu` is the name of this option.
 
 Examples `menu`：
+
 ```yml
 menu:
   - name: Common tools
     icon: far fa-star
     config: hotTools
 ```
+
 There are two ways to add websites in the `Common Tools` group:
 
 - In the theme's `_config.yml` add:
+
 ```yml
 hotTools:
   - name: HCLonely Blog
@@ -286,7 +304,9 @@ hotTools:
     img: /images/logos/github.png
     description: 面向开源及私有软件项目的托管平台。
 ```
+
 - Create a new `hotTools.yml` file in the `source/_data/` (not created by yourself), the content of the file is as follows:
+
 ```yml
 - name: HCLonely Blog
   url: https://blog.hclonely.com/

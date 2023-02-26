@@ -1,11 +1,15 @@
-- name: 音乐搜索器
-  url: http://www.musictool.top
-  img: http://www.musictool.top/static/img/apple-touch-icon.png
+- name: 放屁音乐网
+  url: https://www.fangpi.net/
+  img: https://www.fangpi.net/static/img/logo.png
   description: 免费音乐下载
 - name: 5sing 中国原创音乐基地
   url: http://5sing.kugou.com/index.html
   img: http://5sing.kugou.com/favicon.ico
   description: 免费伴奏、翻唱、音乐下载
+- name: Tunebat
+  url: https://tunebat.com/
+  img: https://tunebat.com/favicon.ico
+  description: 找一首歌曲的key和bpm
 - name: 讯飞配音
   url: http://peiyin.xunfei.cn/
   img: http://peiyin.xunfei.cn/themes/images/bigpeiyinge_favicon.ico
