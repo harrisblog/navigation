@@ -1,4 +1,4 @@
-- name: scrimba - 斯克林巴 🔥
+- name: scrimba 🔥
   url: https://scrimba.com/
   img: https://cdn.jsdelivr.net/npm/hassan-assets/navi/alphabet/Letter_S.png
   description: 前端互动式学习网站
@@ -10,6 +10,10 @@
   url: https://igoutu.cn/illustrations/style--pale
   img: https://maxst.icons8.com/vue-static/ouch/seo/favicon.png
   description: 可选择画风的插画网站
+- name: haikei
+  url: https://app.haikei.app/
+  img: https://cdn.jsdelivr.net/npm/hassan-assets/navi/alphabet/Letter_H.png
+  description: 为你的网站生成随机且独特的SVG、PNG
 - name: codepen
   url: https://codepen.io/
   img: https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png

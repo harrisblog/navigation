@@ -1,4 +1,8 @@
-- name: Harris's Blog 🔥
+- name: 个人主页 🔥
+  url: https://harriswong.top/
+  img: https://cdn.jsdelivr.net/npm/hassan-assets/img/favicon.ico
+  description: 我的个人主页，欢迎访问~
+- name: 我的博客 🔥
   url: https://blog.harriswong.top/
   img: https://cdn.jsdelivr.net/npm/hassan-assets/navi/logos/myblog.png
   description: 我的个人博客，欢迎访问~
