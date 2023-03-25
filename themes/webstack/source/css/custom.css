@@ -204,7 +204,6 @@ body.night .box2:hover {
 h4.text-gray {
   font-size: 24px;
   color: #fff;
-  text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
   margin: 20px 0 0 0;
   text-align: center;
 }
@@ -469,9 +468,14 @@ input#txt {
 }
 
 /* 移动端 ---------------------------- 开始 */
-@media (768px <= width <= 1200px) {
+@media (1200px <= width <= 1400px) {
   .col-sm-3 {
     width: 25%;
+  }
+}
+@media (768px <= width <= 1200px) {
+  .col-sm-3 {
+    width: calc(100% / 3);
   }
 }
 /* 移动端 ---------------------------- 结束 */

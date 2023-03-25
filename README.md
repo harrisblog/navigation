@@ -20,7 +20,7 @@
 <% var now = new Date().getFullYear(); %>
       &copy; <%- setting.since === now ? setting.since : (setting.since + " - " + now) %>
 -      | Designed by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> | Beautified By <a href="harriswong.top"><strong><%- config.author %></strong></a> | Powered by <a href="https://hexo.io/" target="_blank"><strong>Hexo</strong></a> & <a href="https://github.com/HCLonely/hexo-theme-webstack/" target="_blank"><strong>hexo-theme-webstack</strong></a>
-+      | Designed by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> | Beautified By <a href="harriswong.top"><strong>Harris Wong</strong></a> Used By <你的昵称> | Powered by <a href="https://hexo.io/" target="_blank"><strong>Hexo</strong></a> & <a href="https://github.com/HCLonely/hexo-theme-webstack/" target="_blank"><strong>hexo-theme-webstack</strong></a>
++      | Designed by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> | Beautified By <a href="https://harriswong.top"><strong>Harris Wong</strong></a> Used By <你的昵称> | Powered by <a href="https://hexo.io/" target="_blank"><strong>Hexo</strong></a> & <a href="https://github.com/HCLonely/hexo-theme-webstack/" target="_blank"><strong>hexo-theme-webstack</strong></a>
 ```
 
 2. 建议更换所有我正在使用的图片素材，避免网页风格千篇一律，谢谢合作！
