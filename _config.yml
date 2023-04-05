@@ -105,7 +105,7 @@ theme: webstack
 deploy:
   type: git
   #type: baidu_url_submitter
-  repo: git@github.com:hassanblog/navigation.git
+  repo: git@github.com:harrisblog/navigation.git
   branch: main
 
 # 百度收录
