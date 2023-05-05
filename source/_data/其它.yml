@@ -34,7 +34,11 @@
   url: https://cli.im/
   img: https://static.clewm.net/static/images/favicon.ico
   description: 免费制作二维码
-- name: 特殊英文字体生成器 - 九蛙工具箱
+- name: 特殊英文字体生成器
   url: https://www.jiuwa.net/ywzm/
   img: https://cdn.jsdelivr.net/npm/hassan-assets/navi/alphabet/Letter_J.png
   description: 可用在一些社交平台的昵称和简介里
+- name: I❤️IMG
+  url: https://www.iloveimg.com/zh-cn
+  img: https://www.iloveimg.com/img/favicons-img/favicon-16x16.png
+  description: 免费批量编辑图片工具（包括透明图片裁剪）

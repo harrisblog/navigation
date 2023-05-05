@@ -2,7 +2,11 @@
   url: https://www.canva.cn/
   img: https://static.canva.cn/static/images/favicon.ico
   description: 封面制作网站
-- name: 爱设计 🔥
+- name: Figma 🔥
+  url: https://www.figma.com/
+  img: https://static.figma.com/app/icon/1/favicon.png
+  description: 原型设计网站
+- name: 爱设计
   url: https://www.isheji.com/
   img: https://www.isheji.com/isheji_favicon.ico
   description: 在线封面设计神器
