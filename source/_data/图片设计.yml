@@ -5,12 +5,16 @@
 - name: Figma 🔥
   url: https://www.figma.com/
   img: https://static.figma.com/app/icon/1/favicon.png
-  description: 原型设计网站
+  description: 软件原型设计网站
 - name: 爱设计
   url: https://www.isheji.com/
   img: https://www.isheji.com/isheji_favicon.ico
   description: 在线封面设计神器
-- name: Brandmark 🔥
+- name: Photopea 🔥
+  url: https://www.photopea.com/
+  img: https://www.photopea.com/promo/icon512.png
+  description: 网页版PhotoShop
+- name: Brandmark
   url: https://app.brandmark.io/v3/
   img: https://app.brandmark.io/favicon32.gif
   description: Logo制作网站
